@@ -1,0 +1,6 @@
+boto3~=1.17.88
+geojson_pydantic~=0.3.0
+html5lib==1.1
+pydantic~=1.8.2
+PyYAML~=5.4.1
+requests~=2.25.1

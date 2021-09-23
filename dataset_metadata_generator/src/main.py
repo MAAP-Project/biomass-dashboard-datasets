@@ -31,7 +31,7 @@ try:
         }
     )
 # this exception is thrown if the bucket already exists in any region other than us-east-1
-except botocore.client.exceptions.BucketAlreadyOwnedByYou:
+except botocore.exceptions.ClientError:
     pass
 
 bucket = s3.Bucket(bucket_name)

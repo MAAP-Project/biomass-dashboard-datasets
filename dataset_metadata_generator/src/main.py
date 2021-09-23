@@ -7,6 +7,7 @@ import os
 import re
 
 import boto3
+import botocore
 import requests
 import yaml
 
@@ -19,14 +20,21 @@ DATASETS_JSON_FILEPATH = os.path.join(BASE_PATH, "datasets")
 DATASET_METADATA_FILENAME = f"{os.environ.get('STAGE')}-{os.environ.get('DATASET_METADATA_FILENAME', config.get('DATASET_METADATA_FILENAME'))}"
 STAC_API_URL = config.get('STAC_API_URL', None)
 
+bucket_name = os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET'))
 s3 = boto3.resource("s3")
-bucket = s3.create_bucket(
-    Bucket=os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET')),
-    CreateBucketConfiguration={
-        'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
-    }
-)
 
+try:
+    s3.create_bucket(
+        Bucket=bucket_name,
+        CreateBucketConfiguration={
+            'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
+        }
+    )
+except botocore.errorfactory.BucketAlreadyOwnedByYou:
+    # this exception is thrown if the bucket already exists in any region other than us-east-1
+    pass
+
+bucket = s3.Bucket(bucket_name)
 
 # Can test this with python -m dataset_metadata_generator.src.main | jq .
 # From the root directory of this project.

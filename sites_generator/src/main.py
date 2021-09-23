@@ -4,6 +4,7 @@ import os
 from typing import Any, Dict, List
 
 import boto3
+import botocore
 import html5lib
 import yaml
 from geojson_pydantic.geometries import Polygon
@@ -45,15 +46,20 @@ def create_sites_json():
 
     sites = _gather_data(dirpath=SITES_INPUT_FILEPATH, visible_sites=config['SITES'])
 
+    bucket_name = os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET'))
     s3 = boto3.resource("s3")
-    bucket = s3.create_bucket(
-        Bucket=os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET')),
-        CreateBucketConfiguration={
-            'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
-        }
-    )
+    try:
+        s3.create_bucket(
+            Bucket=bucket_name,
+            CreateBucketConfiguration={
+                'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
+            }
+        )
+    except botocore.errorfactory.BucketAlreadyOwnedByYou:
+        # this exception is thrown if the bucket already exists in any region other than us-east-1
+        pass
 
-    bucket.put_object(
+    s3.Bucket(bucket_name).put_object(
         Body=json.dumps(sites), Key=SITES_OUTPUT_FILENAME, ContentType="application/json",
     )
 

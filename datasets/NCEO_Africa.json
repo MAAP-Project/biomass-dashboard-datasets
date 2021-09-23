@@ -1,6 +1,6 @@
 {
   "id": "NCEO_Africa",
-  "name": "MODIS Vegetation Indices MOD13A1.006",
+  "name": "NCEO Africa",
   "type": "raster-timeseries",
   "time_unit": "day",
   "is_periodic": false,

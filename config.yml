@@ -1,6 +1,10 @@
-BUCKET: bucket-does-not-exist
+BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
-- MOD13A1.006.json
+- NCEO_Africa.json
+- CCI_BIOMASS.json
+- GEDI_L4B.json
+- ICESat-2_boreal.json
+- NASA_JPL_mystery.json
 SITES:
 - example

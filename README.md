@@ -1,7 +1,7 @@
 # Dashboard Config
 
 This repository is an example of a GitHub Actions workflow and group of sites configuration files that
-generates and stores metadata configuration files file for use in the dashboard-api-starter.
+generates and stores metadata configuration files file for use in the biomass-dashboard-api.
 
 ## Configuration
 

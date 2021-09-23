@@ -30,8 +30,8 @@ try:
             'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
         }
     )
-except Exception:
-    # this exception is thrown if the bucket already exists in any region other than us-east-1
+# this exception is thrown if the bucket already exists in any region other than us-east-1
+except botocore.client.exceptions.BucketAlreadyOwnedByYou:
     pass
 
 bucket = s3.Bucket(bucket_name)

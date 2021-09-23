@@ -55,7 +55,7 @@ def create_sites_json():
                 'LocationConstraint': os.environ.get('AWS_REGION', 'us-east-1')
             }
         )
-    except Exception:
+    except botocore.client.exceptions.BucketAlreadyOwnedByYou:
         # this exception is thrown if the bucket already exists in any region other than us-east-1
         pass
 

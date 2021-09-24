@@ -1,6 +1,6 @@
 {
-  "id": "NASA_JPL_MYSTERY",
-  "name": "NASA JPL Mystery Product",
+  "id": "NASA_JPL",
+  "name": "NASA JPL",
   "type": "raster-timeseries",
   "time_unit": "day",
   "is_periodic": false,

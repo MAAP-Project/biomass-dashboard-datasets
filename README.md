@@ -43,11 +43,12 @@ This will create and copy the sites file to the S3 location indicated in `BUCKET
 
 1. Update config.yml with the appropriate BUCKET and SITES configuration
 2. Export a shell variable for `STAGE`, e.g., `export STAGE=local`
-3. Run the sites generator.
+3. Run the products and country pilots generators.
 
 ```bash
 export STAGE=local
-python sites_generator/src/main.py | jq .
+python products_metadata_generator/src/main.py | jq .
+python country_pilots_metadata_generator/src/main.py | jq .
 ```
 
 ### Execution via GitHub Actions

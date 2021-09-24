@@ -5,9 +5,15 @@ DATASETS:
 - CCI_BIOMASS.json
 - GEDI_L4B.json
 - ICESat-2_boreal.json
-- NASA_JPL_mystery.json
-SITES:
+- NASA_JPL.json
+COUNTRY_PILOTS:
 - japan
 - paraguay
 - peru
 - wales
+PRODUCTS:
+- NCEO_Africa
+- CCI_BIOMASS 
+- GEDI_L4B
+- ICESat-2_boreal
+- NASA_JPL

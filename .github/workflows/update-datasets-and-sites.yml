@@ -43,10 +43,9 @@ jobs:
       - name: Execute the products generator script
         env:
           STAGE: ${{ steps.extract_branch.outputs.branch }}
-        run: python -m products
-        .src.main
+        run: python -m products_metadata_generator.src.main
       
       - name: Execute the country pilots generator script
         env:
           STAGE: ${{ steps.extract_branch.outputs.branch }}
-        run: python -m country_pilots.src.main
+        run: python -m country_pilots_metadata_generator.src.main

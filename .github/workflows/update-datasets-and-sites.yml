@@ -4,7 +4,7 @@ on:
     branches:
       - main
       - staging
-      - ab/add-paraguay-datasets
+      - aimee
 
 jobs:
   run-metadata-generator:

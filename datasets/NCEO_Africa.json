@@ -9,7 +9,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-        "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone/user-added/uploaded_objects/864273ff-b2fd-4335-8e5c-d411ee39a1ac/AGB_map_2017v0_cog.tif&rescale=0%2C730&colormap_name=gray"
+        "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone/user-added/uploaded_objects/864273ff-b2fd-4335-8e5c-d411ee39a1ac/AGB_map_2017v0_cog.tif&rescale=0%2C730&colormap_name=viridis"
       ]
   },
   "legend": {
@@ -17,18 +17,18 @@
     "min": "0",
     "max": "730",
     "stops": [
-        "#000000",
-        "#171717",
-        "#2e2e2e",
-        "#464646",
-        "#5d5d5d",
-        "#747474",
-        "#8b8b8b",
-        "#a2a2a2",
-        "#b9b9b9",
-        "#d1d1d1",
-        "#e8e8e8",
-        "#ffffff"
+        "#440154",
+        "#482173",
+        "#433e85",
+        "#38588c",
+        "#2d708e",
+        "#25858e",
+        "#1e9b8a",
+        "#2ab07f",
+        "#52c569",
+        "#86d549",
+        "#c2df23",
+        "#fde725"
     ]
   },
   "info": ""

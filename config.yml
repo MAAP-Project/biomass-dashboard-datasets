@@ -1,4 +1,4 @@
-BUCKET: biomass-earthdata-dashboard
+BUCKET: biomass-earthdata-dashboard-aimee
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - NCEO_Africa.json
@@ -6,6 +6,7 @@ DATASETS:
 - GEDI_L4B.json
 - ICESat-2_boreal.json
 - NASA_JPL.json
+- paraguay-forest-mask.json
 COUNTRY_PILOTS:
 - japan
 - paraguay
@@ -13,7 +14,7 @@ COUNTRY_PILOTS:
 - wales
 PRODUCTS:
 - NCEO_Africa
-- CCI_BIOMASS 
+- CCI_BIOMASS
 - GEDI_L4B
 - ICESat-2_boreal
 - NASA_JPL

@@ -1,34 +1,35 @@
 {
   "id": "nceo_africa",
   "name": "NCEO Africa",
-  "type": "raster-timeseries",
-  "time_unit": "day",
-  "is_periodic": false,
-  "s3_location": "MOD13A1.006",
-  "s3_bucket": "modis-vi-nasa",
+  "type": "raster",
   "swatch": {
-      "color": "#189C54",
-      "name": "Dark Green"
+      "color": "#6976d7",
+      "name": "Moody Blue"
   },
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/{date}.tif&resampling_method=nearest&bidx=1&rescale=-0.20000000298023224%2C0.9945999979972839&color_map=gist_earth"
+        "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone/user-added/uploaded_objects/864273ff-b2fd-4335-8e5c-d411ee39a1ac/AGB_map_2017v0_cog.tif&rescale=0%2C730&colormap_name=gray"
       ]
   },
   "legend": {
-      "type": "gradient-adjustable",
-      "min": "-20000",
-      "max": "0",
-      "stops": [
-          "#313695",
-          "#588cbf",
-          "#a3d2e5",
-          "#e8f6e8",
-          "#fee89c",
-          "#fba55c",
-          "#e24932"
-      ]
+    "type": "gradient",
+    "min": "0",
+    "max": "730",
+    "stops": [
+        "#000000",
+        "#171717",
+        "#2e2e2e",
+        "#464646",
+        "#5d5d5d",
+        "#747474",
+        "#8b8b8b",
+        "#a2a2a2",
+        "#b9b9b9",
+        "#d1d1d1",
+        "#e8e8e8",
+        "#ffffff"
+    ]
   },
   "info": ""
 }

@@ -1,0 +1,32 @@
+{
+  "id": "paraguay-forest-mask",
+  "name": "paraguay-forest-mask",
+  "type": "raster-timeseries",
+  "time_unit": "day",
+  "is_periodic": false,
+  "swatch": {
+      "color": "#189C54",
+      "name": "Dark Green"
+  },
+  "source": {
+      "type": "raster",
+      "tiles": [
+          "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=s3://maap-landing-zone-gccops/user-added/23458828-37f7-4cc3-971d-ef1661287e9a/5_biomass_cog.tif&nodata=nan"
+      ]
+  },
+  "legend": {
+      "type": "gradient-adjustable",
+      "min": "-20000",
+      "max": "0",
+      "stops": [
+          "#313695",
+          "#588cbf",
+          "#a3d2e5",
+          "#e8f6e8",
+          "#fee89c",
+          "#fba55c",
+          "#e24932"
+      ]
+  },
+  "info": ""
+}

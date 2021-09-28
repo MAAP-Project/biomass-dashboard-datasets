@@ -38,5 +38,11 @@
         -54.2929595608,
         -19.3427466773
     ],
-    "indicators": []
+    "indicators": [],
+    "datasets": [
+        {
+            "id": "cci_biomass",
+            "name": "CCI BIOMASS"
+        }
+    ]
 }

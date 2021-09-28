@@ -19,7 +19,10 @@ INPUT_FILEPATH = os.path.join(BASE_PATH, "products")
 
 OUTPUT_FILENAME = f"{os.environ.get('STAGE', 'local')}-products-metadata.json"
 
-
+class Dataset(BaseModel):
+    id: constr(min_length=3)
+    name: constr(min_length=3)
+    
 class Product(BaseModel):
 
     id: constr(min_length=3)
@@ -28,6 +31,7 @@ class Product(BaseModel):
     polygon: Polygon
     bounding_box: BBox
     indicators: List[str]
+    datasets: List[Dataset]
 
     def to_dict(self, **kwargs):
         return self.dict(by_alias=True, exclude_unset=True, **kwargs)
@@ -78,12 +82,12 @@ def _gather_data(dirpath: str, visible_products: List[str] = None) -> Dict[str, 
         cp = path[0].rsplit("/", 1)[1]
         if visible_products and cp not in visible_products:
             continue
-        with open(os.path.join(dirpath, cp, "site.json"), "r") as f:
+        with open(os.path.join(dirpath, cp, "product.json"), "r") as f:
             entity = json.loads(f.read())
             try:
                 Product(**entity)
             except ValidationError as e:
-                print(f"Error processing site.json for {cp}: {e.json()}")
+                print(f"Error processing product.json for {cp}: {e.json()}")
                 raise e
         with open(os.path.join(dirpath, cp, "summary.html"), "r") as f:
             summary = f.read()

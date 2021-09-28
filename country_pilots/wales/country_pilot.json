@@ -1,6 +1,6 @@
 {
-  "id": "nasa_jpl",
-  "label": "NASA JPL",
+  "id": "wales",
+  "label": "Wales",
   "center": [
     -3.7837,
     52.1307
@@ -38,5 +38,11 @@
     -2.7046296495198936,
     53.466099815736506
   ],
-  "indicators": []
+  "indicators": [],
+"datasets": [
+    {
+        "id": "cci_biomass",
+        "name": "CCI BIOMASS"
+    }
+]
 }

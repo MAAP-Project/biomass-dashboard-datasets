@@ -38,5 +38,11 @@
         -54.2929595608,
         -19.3427466773
     ],
-    "indicators": []
+    "indicators": [],
+    "datasets": [
+        {
+            "id": "gedi_l4b",
+            "name": "GEDI L4B"
+        }
+    ]
 }

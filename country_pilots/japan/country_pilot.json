@@ -1,6 +1,6 @@
 {
-  "id": "cci_biomass",
-  "label": "CCI BIOMASS",
+  "id": "japan",
+  "label": "Japan",
   "center": [
       138.2529,
       36.2048
@@ -38,5 +38,11 @@
     145.543137242,
     45.5514834662
   ],
-  "indicators": []
+  "indicators": [],
+  "datasets": [
+        {
+            "id": "cci_biomass",
+            "name": "CCI BIOMASS"
+        }
+    ]
 }

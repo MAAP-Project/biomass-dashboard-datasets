@@ -78,12 +78,12 @@ def _gather_data(dirpath: str, visible_country_pilots: List[str] = None) -> Dict
         cp = path[0].rsplit("/", 1)[1]
         if visible_country_pilots and cp not in visible_country_pilots:
             continue
-        with open(os.path.join(dirpath, cp, "site.json"), "r") as f:
+        with open(os.path.join(dirpath, cp, "country_pilot.json"), "r") as f:
             entity = json.loads(f.read())
             try:
                 CountryPilot(**entity)
             except ValidationError as e:
-                print(f"Error processing site.json for {cp}: {e.json()}")
+                print(f"Error processing country_pilot.json for {cp}: {e.json()}")
                 raise e
         with open(os.path.join(dirpath, cp, "summary.html"), "r") as f:
             summary = f.read()

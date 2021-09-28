@@ -1,5 +1,5 @@
 {
-  "id": "NASA_JPL",
+  "id": "nasa_jpl",
   "name": "NASA JPL",
   "type": "raster-timeseries",
   "time_unit": "day",

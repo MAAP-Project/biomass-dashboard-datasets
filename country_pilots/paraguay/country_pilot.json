@@ -42,7 +42,7 @@
     "datasets": [
         {
             "id": "paraguay-forest-mask",
-            "label": "Paraguay Forest/Non-Forest Mask"
-          }  
+            "label": "Paraguay Forest Non-Forest Mask"
+        }
     ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": "NCEO_Africa",
+  "id": "nceo_africa",
   "name": "NCEO Africa",
   "type": "raster-timeseries",
   "time_unit": "day",

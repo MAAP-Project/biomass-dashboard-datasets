@@ -1,5 +1,5 @@
 {
-  "id": "CCI_BIOMASS",
+  "id": "cci_biomass",
   "name": "CCI BIOMASS",
   "type": "raster-timeseries",
   "time_unit": "day",

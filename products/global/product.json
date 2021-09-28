@@ -1,0 +1,30 @@
+{
+  "id": "global",
+  "label": "All (Global)",
+  "center": [
+    0.0,
+    0.0
+  ],
+  "datasets": [
+    {
+      "id": "cci_biomass",
+      "name": "CCI BIOMASS"
+    },
+    {
+      "id": "gedi_l4b",
+      "name": "GEDI L4B"
+    },
+    {
+      "id": "icesat2_boreal",
+      "name": "ICESAT-2 Boreal"
+    },
+    {
+      "id": "nasa_jpl",
+      "name": "NASA JPL"
+    },
+    {
+      "id": "nceo_africa",
+      "label": "NCEO Africa"
+    }
+  ]
+}

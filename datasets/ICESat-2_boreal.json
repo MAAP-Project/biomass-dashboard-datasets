@@ -1,6 +1,6 @@
 {
-  "id": "ICESAT_2_BOREAL",
-  "name": "ICESAT-2 BOREAL",
+  "id": "icesat2_boreal",
+  "name": "ICESAT-2 Boreal",
   "type": "raster-timeseries",
   "time_unit": "day",
   "is_periodic": false,

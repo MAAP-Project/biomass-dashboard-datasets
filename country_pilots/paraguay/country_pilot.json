@@ -41,8 +41,8 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "cci_biomass",
-            "name": "CCI BIOMASS"
-        }
+            "id": "paraguay-forest-mask",
+            "label": "Paraguay Forest/Non-Forest Mask"
+          }  
     ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "paraguay-forest-mask",
-  "name": "paraguay-forest-mask",
+  "name": "Paraguay Forest/Non-Forest Mask",
   "type": "raster-timeseries",
   "time_unit": "day",
   "is_periodic": false,

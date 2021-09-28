@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - staging
+      - ab/add-paraguay-datasets
 
 jobs:
   run-metadata-generator:

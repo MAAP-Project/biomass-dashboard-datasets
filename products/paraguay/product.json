@@ -1,0 +1,52 @@
+{
+    "id": "paraguay",
+    "label": "Paraguay",
+    "center": [
+        -58.4438,
+        -23.4425
+    ],
+    "polygon": {
+        "coordinates": [
+            [
+                [
+                    -62.6850571357,
+                    -27.5484990374
+                ],
+                [
+                    -54.2929595608,
+                    -27.5484990374
+                ],
+                [
+                    -54.2929595608,
+                    -19.3427466773
+                ],
+                [
+                    -62.6850571357,
+                    -19.3427466773
+                ],
+                [
+                    -62.6850571357,
+                    -27.5484990374
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "bounding_box": [
+        -62.6850571357,
+        -27.5484990374,
+        -54.2929595608,
+        -19.3427466773
+    ],
+    "indicators": [],
+    "datasets": [
+        {
+            "id": "paraguay-forest-mask",
+            "label": "Paraguay Forest Non-Forest Mask"
+        },
+        {
+            "id": "paraguay-estimated-biomass",
+            "label": "Paraguay Estimated Biomass"
+        }        
+    ]
+}

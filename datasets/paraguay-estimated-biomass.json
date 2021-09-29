@@ -1,6 +1,6 @@
 {
-  "id": "paraguay-forest-mask",
-  "name": "2020 Paraguay Forest/Non-Forest Mask",
+  "id": "paraguay-estimated-biomass",
+  "name": "Estimated biomass in Paraguay within 6km grids",
   "type": "raster", 
   "swatch": {
       "color": "#189C54",
@@ -9,7 +9,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png??url=s3://maap-landing-zone-gccops/user-added/23458828-37f7-4cc3-971d-ef1661287e9a/1_forest_cog.tif&rescale=0%2C1&nodata=nan"
+          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/23458828-37f7-4cc3-971d-ef1661287e9a/5_biomass_cog.tif&bidx=1&rescale=0%2C140"
       ]
   },
   "legend": {

@@ -9,7 +9,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-        "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone/user-added/uploaded_objects/864273ff-b2fd-4335-8e5c-d411ee39a1ac/AGB_map_2017v0_cog.tif&rescale=0%2C730&colormap_name=viridis"
+        "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone/user-added/uploaded_objects/864273ff-b2fd-4335-8e5c-d411ee39a1ac/AGB_map_2017v0_cog.tif&rescale=0%2C730&colormap_name=viridis&nodata=65536"
       ]
   },
   "legend": {

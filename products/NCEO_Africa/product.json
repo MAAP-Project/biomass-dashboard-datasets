@@ -43,6 +43,10 @@
         {
             "id": "nceo_africa",
             "name": "NCEO Africa"
+        },
+        {
+            "id": "paraguay-forest-mask",
+            "label": "Paraguay Forest Non-Forest Mask"
         }
     ]
 }

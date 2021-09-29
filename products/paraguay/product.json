@@ -42,8 +42,16 @@
     "datasets": [
         {
             "id": "paraguay-forest-mask",
-            "label": "Paraguay Forest Non-Forest Mask"
+            "label": "Paraguay Forest/Non-Forest Mask"
         },
+        {
+            "id": "paraguay-gedi-cog",
+            "label": "GEDI rh99"
+        },
+        {
+            "id": "paraguay-tree-cover",
+            "label": "Percent Tree cover for 2019"
+        },                
         {
             "id": "paraguay-estimated-biomass",
             "label": "Paraguay Estimated Biomass"

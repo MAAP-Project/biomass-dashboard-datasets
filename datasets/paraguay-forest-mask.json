@@ -1,9 +1,7 @@
 {
   "id": "paraguay-forest-mask",
   "name": "Paraguay Forest/Non-Forest Mask",
-  "type": "raster-timeseries",
-  "time_unit": "day",
-  "is_periodic": false,
+  "type": "raster",
   "swatch": {
       "color": "#189C54",
       "name": "Dark Green"

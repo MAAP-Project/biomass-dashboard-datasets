@@ -7,24 +7,19 @@
   ],
   "datasets": [
     {
-      "id": "cci_biomass",
-      "name": "CCI BIOMASS"
+      "id": "cci_biomass"
     },
     {
-      "id": "gedi_l4b",
-      "name": "GEDI L4B"
+      "id": "gedi_l4b"
     },
     {
-      "id": "icesat2_boreal",
-      "name": "ICESAT-2 Boreal"
+      "id": "icesat2_boreal"
     },
     {
-      "id": "nasa_jpl",
-      "name": "NASA JPL"
+      "id": "nasa_jpl"
     },
     {
-      "id": "nceo_africa",
-      "label": "NCEO Africa"
+      "id": "nceo_africa"
     }
   ]
 }

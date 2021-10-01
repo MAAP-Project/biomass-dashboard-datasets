@@ -9,7 +9,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/23458828-37f7-4cc3-971d-ef1661287e9a/1_forest_cog.tif&rescale=0%2C1&nodata=nan"
+          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/45fe2e6f-2007-4cb1-964a-f337f39f4fdc/1_forest_cog.masked.tif&rescale=0,1&colormap_name=pink&nodata=0"
       ]
   },
   "legend": {

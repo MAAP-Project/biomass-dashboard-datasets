@@ -9,21 +9,16 @@
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/23458828-37f7-4cc3-971d-ef1661287e9a/4_tree_cover_cog.tif&rescale=0%2C75"
+          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/ee5eb60c-3c01-4789-ae8e-c03f1d719440/4_tree_cover_cog.masked.tif&rescale=0,75&nodata=0&colormap_name=Greens"
       ]
   },
   "legend": {
       "type": "gradient-adjustable",
-      "min": "-20000",
-      "max": "0",
+      "min": "0",
+      "max": "75",
       "stops": [
-          "#313695",
-          "#588cbf",
-          "#a3d2e5",
-          "#e8f6e8",
-          "#fee89c",
-          "#fba55c",
-          "#e24932"
+          "#f7fcf5",
+          "#00441b"
       ]
   },
   "info": ""

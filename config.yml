@@ -7,7 +7,6 @@ DATASETS:
 - ICESat-2_boreal.json
 - NASA_JPL.json
 - paraguay-forest-mask.json
-- paraguay-gedi-cog.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
 COUNTRY_PILOTS:

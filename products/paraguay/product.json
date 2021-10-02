@@ -45,10 +45,6 @@
             "name": "Paraguay Forest/Non-Forest Mask"
         },
         {
-            "id": "paraguay-gedi-cog",
-            "name": "GEDI rh99"
-        },
-        {
             "id": "paraguay-tree-cover",
             "name": "Percent Tree cover for 2019"
         },                

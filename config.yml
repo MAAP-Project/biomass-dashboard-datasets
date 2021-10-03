@@ -1,4 +1,4 @@
-BUCKET: biomass-earthdata-dashboard-aimee
+BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - NCEO_Africa.json

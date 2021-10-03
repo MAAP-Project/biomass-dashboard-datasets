@@ -41,8 +41,7 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "gedi_l4b",
-            "name": "GEDI L4B"
+            "id": "gedi_l4b"
         }
     ]
 }

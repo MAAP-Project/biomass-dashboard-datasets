@@ -16,7 +16,7 @@
         "type": "categorical",
         "stops": [
             {
-                "color": "#FFF",
+                "color": "#fdfbfb",
                 "label": "Forest"
             }
         ]

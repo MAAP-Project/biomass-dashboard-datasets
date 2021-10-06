@@ -41,10 +41,13 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "paraguay-forest-mask"        },
+            "id": "paraguay-forest-mask"
+        },
         {
-            "id": "paraguay-tree-cover"        },                
+            "id": "paraguay-tree-cover"
+        },
         {
-            "id": "paraguay-estimated-biomass"        }
+            "id": "paraguay-estimated-biomass"
+        }
     ]
 }

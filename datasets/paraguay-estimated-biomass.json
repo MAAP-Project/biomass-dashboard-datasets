@@ -1,0 +1,30 @@
+{
+  "id": "paraguay-estimated-biomass",
+  "name": "Estimated biomass in Paraguay within 6km grids",
+  "type": "raster", 
+  "swatch": {
+      "color": "#189C54",
+      "name": "Dark Green"
+  },
+  "source": {
+      "type": "raster",
+      "tiles": [
+          "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,140&colormap_name=gist_earth"
+      ]
+  },
+  "legend": {
+      "type": "gradient-adjustable",
+      "min": "0",
+      "max": "140",
+      "stops": [
+        "#000000",
+        "#1c4e7a",
+        "#368770",
+        "#5da04b",
+        "#aab35c",
+        "#cdab84",
+        "#fdfbfb"
+      ]
+  },
+  "info": ""
+}

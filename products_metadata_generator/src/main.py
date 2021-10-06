@@ -21,7 +21,6 @@ OUTPUT_FILENAME = f"{os.environ.get('STAGE', 'local')}-products-metadata.json"
 
 class Dataset(BaseModel):
     id: constr(min_length=3)
-    name: constr(min_length=3)
     
 class Product(BaseModel):
 

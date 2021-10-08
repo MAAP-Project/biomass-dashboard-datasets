@@ -1,0 +1,35 @@
+{
+    "id": "global_008_agb_mean_prediction_2020_mosaic_veg_gfccorr_Asia",
+    "name": "NASA JPL Global Above Ground Biomass Mean Prediction 2020 0 Asia",
+    "type": "raster",
+    "swatch": {
+        "color": "#6976d7",
+        "name": "Moody Blue"
+    },
+    "source": {
+        "type": "raster",
+        "tiles": [
+            "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/bfdc722e-778c-4a60-aba6-d3fe605210b0/global_008_agb_mean_prediction_2020_mosaic_veg_gfccorr_Asia.tif&rescale=0,1000&colormap_name=viridis"
+        ]
+    },
+    "legend": {
+        "type": "gradient-adjustable",
+        "min": 0,
+        "max": 1000,
+        "stops": [
+            "#440154",
+            "#482173",
+            "#433e85",
+            "#38588c",
+            "#2d708e",
+            "#25858e",
+            "#1e9b8a",
+            "#2ab07f",
+            "#52c569",
+            "#86d549",
+            "#c2df23",
+            "#fde725"
+        ]
+    },
+    "info": ""
+}

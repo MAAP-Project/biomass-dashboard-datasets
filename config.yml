@@ -9,6 +9,7 @@ DATASETS:
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
+- global_008_agb_mean_prediction_2020_mosaic_veg_gfccorr_Asia.json
 COUNTRY_PILOTS:
 - japan
 - paraguay

@@ -1,0 +1,35 @@
+{
+    "id": "nasa_jpl",
+    "name": "NASA JPL Global Above Ground Biomass Mean Prediction 2020",
+    "type": "raster",
+    "swatch": {
+        "color": "#6976d7",
+        "name": "Moody Blue"
+    },
+    "source": {
+        "type": "raster",
+        "tiles": [
+            "{titiler_server_url}/mosaicjson/WMTSCapabilities.xml?tile_format=png&tile_scale=1&pixel_selection=first&TileMatrixSetId=WebMercatorQuad&url=s3%3A%2F%2Fmaap-landing-zone-gccops%2Fuser-added%2Fuploaded_objects%2Fec008049-7cfe-4dfc-a714-a217d7cb264e%2Fjpl_tile_test.json&bidx=1&resampling_method=nearest&rescale=0%2C1000&return_mask=true&colormap_name=viridis"
+        ]
+    },
+    "legend": {
+        "type": "gradient-adjustable",
+        "min": 0,
+        "max": 1000,
+        "stops": [
+            "#440154",
+            "#482173",
+            "#433e85",
+            "#38588c",
+            "#2d708e",
+            "#25858e",
+            "#1e9b8a",
+            "#2ab07f",
+            "#52c569",
+            "#86d549",
+            "#c2df23",
+            "#fde725"
+        ]
+    },
+    "info": ""
+}

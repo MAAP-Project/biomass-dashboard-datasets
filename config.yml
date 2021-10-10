@@ -5,11 +5,10 @@ DATASETS:
 - CCI_BIOMASS.json
 - GEDI_L4B.json
 - ICESat-2_boreal.json
-- NASA_JPL.json
+- nasa_jpl.json
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
-- global_008_agb_mean_prediction_2020_mosaic_veg_gfccorr_Asia.json
 COUNTRY_PILOTS:
 - japan
 - paraguay

@@ -280,4 +280,4 @@ class NoKeysFoundForSpotlight(Exception):
     pass
 
 if __name__ == "__main__":
-    json.dumps(handler())
+    print(json.dumps(handler()))

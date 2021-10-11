@@ -41,8 +41,10 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "nceo_africa",
-            "name": "NCEO Africa"
+            "id": "nceo_africa"
+        },
+        {
+            "id": "nceo_africa_sd"
         }
     ]
 }

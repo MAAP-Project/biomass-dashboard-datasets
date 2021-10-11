@@ -2,6 +2,7 @@ BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - NCEO_Africa.json
+- NCEO_Africa_SD.json
 - CCI_BIOMASS.json
 - GEDI_L4B.json
 - ICESat-2_boreal.json

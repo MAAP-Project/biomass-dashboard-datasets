@@ -1,7 +1,7 @@
 {
     "id": "gedi-calval-plots",
     "name": "GEDI Cal/Val Field Data",
-    "type": "inference-timeseries",
+    "type": "inference",
     "source": {
         "type": "geojson",
         "tiles": [

@@ -1,7 +1,7 @@
 {
     "id": "gedi-calval-plots",
     "name": "GEDI Cal/Val Field Data",
-    "type": "inference",
+    "type": "vector",
     "source": {
         "type": "geojson",
         "tiles": [

@@ -41,8 +41,10 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "icesat2_boreal",
-            "name": "ICESAT-2 Boreal"
+            "id": "icesat2_boreal"
+        },
+        {
+            "id": "gedi-calval-plots"
         }
     ]
 }

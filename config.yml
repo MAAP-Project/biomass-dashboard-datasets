@@ -9,6 +9,7 @@ DATASETS:
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
+- gedi-calval-plots.json
 COUNTRY_PILOTS:
 - japan
 - paraguay

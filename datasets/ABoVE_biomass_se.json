@@ -19,18 +19,18 @@
       "min": "0",
       "max": "20",
       "stops": [
-          '#000004', 
-          '#120d31', 
-          '#331067', 
-          '#59157e', 
-          '#7e2482', 
-          '#a3307e', 
-          '#c83e73', 
-          '#e95462', 
-          '#fa7d5e', 
-          '#fea973', 
-          '#fed395', 
-          '#fcfdbf'
+          "#000004", 
+          "#120d31", 
+          "#331067", 
+          "#59157e", 
+          "#7e2482", 
+          "#a3307e", 
+          "#c83e73", 
+          "#e95462", 
+          "#fa7d5e", 
+          "#fea973", 
+          "#fed395", 
+          "#fcfdbf"
       ]
   },
   "info": "Boreal above ground biomass (AGB) standard (SE) calculated from ICESAT-2, Landsat 8, and Copernicus DEM."

@@ -19,18 +19,18 @@
       "min": "0",
       "max": "125",
       "stops": [
-          '#440154', 
-          '#482173', 
-          '#433e85', 
-          '#38588c', 
-          '#2d708e', 
-          '#25858e', 
-          '#1e9b8a', 
-          '#2ab07f', 
-          '#52c569', 
-          '#86d549', 
-          '#c2df23', 
-          '#fde725'
+          "#440154", 
+          "#482173", 
+          "#433e85", 
+          "#38588c", 
+          "#2d708e", 
+          "#25858e", 
+          "#1e9b8a", 
+          "#2ab07f", 
+          "#52c569", 
+          "#86d549", 
+          "#c2df23", 
+          "#fde725"
       ]
   },
   "info": "Boreal, above ground biomass (AGB) calculated from ICESAT-2, Landsat 8, and Copernicus DEM."

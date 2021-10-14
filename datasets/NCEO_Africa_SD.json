@@ -1,0 +1,35 @@
+{
+  "id": "nceo_africa_sd",
+  "name": "NCEO Africa Standard Deviation",
+  "type": "raster",
+  "swatch": {
+    "color": "#6976d7",
+    "name": "Moody Blue"
+  },
+  "source": {
+    "type": "raster",
+    "tiles": [
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/1ab2d3b6-e5ab-4f8f-91dc-a4a77074e16f/SD_AGB_map_2017v0_cog.tif&rescale=0%2C310&colormap_name=viridis&nodata=65536"
+    ]
+  },
+  "legend": {
+    "type": "gradient",
+    "min": "0",
+    "max": "310",
+    "stops": [
+      "#440154",
+      "#482173",
+      "#433e85",
+      "#38588c",
+      "#2d708e",
+      "#25858e",
+      "#1e9b8a",
+      "#2ab07f",
+      "#52c569",
+      "#86d549",
+      "#c2df23",
+      "#fde725"
+    ]
+  },
+  "info": "The total uncertainty (SD) at pixel level is composed of different sources of error, which are assumed to be random and independent."
+}

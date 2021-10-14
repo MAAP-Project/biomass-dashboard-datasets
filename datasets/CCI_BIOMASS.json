@@ -1,34 +1,35 @@
 {
   "id": "cci_biomass",
   "name": "CCI BIOMASS",
-  "type": "raster-timeseries",
-  "time_unit": "day",
-  "is_periodic": false,
-  "s3_location": "MOD13A1.006",
-  "s3_bucket": "modis-vi-nasa",
+  "type": "raster",
   "swatch": {
-      "color": "#189C54",
-      "name": "Dark Green"
+    "color": "#189C54",
+    "name": "Dark Green"
   },
   "source": {
-      "type": "raster",
-      "tiles": [
-          "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/{date}.tif&resampling_method=nearest&bidx=1&rescale=-0.20000000298023224%2C0.9945999979972839&color_map=gist_earth"
-      ]
+    "type": "raster",
+    "tiles": [
+      "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/962f521c-b118-4fda-84df-6db8eca83776/cci_biomass_filtered.json&rescale=0,1000&bidx=1&nodata=0&colormap_name=viridis"
+    ]
   },
   "legend": {
-      "type": "gradient-adjustable",
-      "min": "-20000",
-      "max": "0",
-      "stops": [
-          "#313695",
-          "#588cbf",
-          "#a3d2e5",
-          "#e8f6e8",
-          "#fee89c",
-          "#fba55c",
-          "#e24932"
-      ]
+    "type": "gradient",
+    "min": "0",
+    "max": "1000",
+    "stops": [
+      "#440154",
+      "#482173",
+      "#433e85",
+      "#38588c",
+      "#2d708e",
+      "#25858e",
+      "#1e9b8a",
+      "#2ab07f",
+      "#52c569",
+      "#86d549",
+      "#c2df23",
+      "#fde725"
+    ]
   },
-  "info": ""
+  "info": "The primary science objective ESA’s Climate Change Initiative (CCI) Biomass project is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2010, 2017 and 2018), with these being capable of supporting quantification of biomass change."
 }

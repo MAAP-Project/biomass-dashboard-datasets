@@ -3,9 +3,7 @@
     "name": "GEDI Cal/Val Field Data",
     "type": "geojson",
     "source": {
-        "type": "geojson",
-        "data": "https://gist.githubusercontent.com/abarciauskas-bgse/23d637003fce13aa6740ec4586550658/raw/22452601f339ab10c9d64597a05a9ed9f32599b5/gedi-calval-plot.geojson",
-        "tiles": [ "https://gist.githubusercontent.com/abarciauskas-bgse/23d637003fce13aa6740ec4586550658/raw/22452601f339ab10c9d64597a05a9ed9f32599b5/gedi-calval-plot.geojson" ]
+        "data": "https://gist.githubusercontent.com/abarciauskas-bgse/23d637003fce13aa6740ec4586550658/raw/22452601f339ab10c9d64597a05a9ed9f32599b5/gedi-calval-plot.geojson"
     },
     "enabled": true,
     "paint": {

@@ -10,7 +10,9 @@
     "enabled": true,
     "paint": {
         "circle-radius": 8,
-        "circle-color": "orange"
+        "circle-color": "orange",
+        "circle-opacity": 1,
+        "circle-stroke-color": "white"
     },
     "swatch": {
         "color": "#C0C0C0",

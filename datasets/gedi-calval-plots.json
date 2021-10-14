@@ -9,10 +9,10 @@
     },
     "enabled": true,
     "paint": {
-        "circle-radius": 8,
-        "circle-color": "orange",
-        "circle-opacity": 1,
-        "circle-stroke-color": "white"
+        "circle_radius": 8,
+        "circle_color": "orange",
+        "circle_opacity": 1,
+        "circle_stroke_color": "white"
     },
     "swatch": {
         "color": "#C0C0C0",

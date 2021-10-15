@@ -1,6 +1,6 @@
 {
-  "id": "cci_biomass",
-  "name": "CCI BIOMASS",
+  "id": "cci_biomass_sd",
+  "name": "CCI BIOMASS SD",
   "type": "raster",
   "swatch": {
     "color": "#189C54",
@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/2bc5f685-d090-4b59-8878-b9959cfe3eec/cci_biomass_2020.json&rescale=0,500&bidx=1&nodata=0&colormap_name=viridis"
+      "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/2bc5f685-d090-4b59-8878-b9959cfe3eec/cci_biomass_2020.json&rescale=0,500&bidx=2&nodata=0&colormap_name=reds"
     ]
   },
   "legend": {

@@ -1,9 +1,7 @@
 {
   "id": "above_biomass",
   "name": "ABoVE Biomass",
-  "type": "raster-timeseries",
-  "time_unit": "day",
-  "is_periodic": false,
+  "type": "raster",
   "swatch": {
       "color": "#189C54",
       "name": "Dark Green"

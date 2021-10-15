@@ -1,9 +1,7 @@
 {
   "id": "above_biomass_se",
   "name": "ABoVE Biomass Standard Error",
-  "type": "raster-timeseries",
-  "time_unit": "day",
-  "is_periodic": false,
+  "type": "raster",
   "swatch": {
       "color": "#189C54",
       "name": "Dark Green"
@@ -33,5 +31,5 @@
           "#67000d"
       ]
   },
-  "info": "Boreal above ground biomass (AGB) standard (SE) calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
+  "info": "Boreal above ground biomass (AGB) standard error (SE) of the biomass calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
 }

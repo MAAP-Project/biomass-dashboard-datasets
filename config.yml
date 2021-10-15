@@ -5,12 +5,15 @@ DATASETS:
 - NCEO_Africa_SD.json
 - CCI_BIOMASS.json
 - GEDI_L4B.json
-- ICESat-2_boreal.json
 - nasa-jpl.json
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
 - gedi-calval-plots.json
+- ABoVE_biomass.json
+- ABoVE_biomass_se.json
+- ABoVE_landsat8.json
+- ABoVE_topo.json
 COUNTRY_PILOTS:
 - japan
 - paraguay
@@ -20,5 +23,5 @@ PRODUCTS:
 - NCEO_Africa
 - CCI_BIOMASS
 - GEDI_L4B
-- ICESat-2_boreal
+- ABoVE_Boreal
 - NASA_JPL

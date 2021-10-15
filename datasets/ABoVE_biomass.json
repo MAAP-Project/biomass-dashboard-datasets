@@ -9,7 +9,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}.png?url=s3://maap-ops-workspace/shared/lduncanson/DPS_tile_lists/AGB_tindex_master_mosaic.json&bidx=1&rescale=0%2125&color_map=viridis"
+          "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}.png?url=s3://maap-ops-workspace/shared/lduncanson/DPS_tile_lists/AGB_tindex_master_mosaic.json&bidx=1&rescale=0%2C125&color_map=viridis"
       ]
   },
   "legend": {

@@ -1,4 +1,4 @@
-BUCKET: biomass-earthdata-dashboard-aimee
+BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - NCEO_Africa.json
@@ -9,7 +9,6 @@ DATASETS:
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
-- gedi-calval-plots.json
 - ABoVE_biomass.json
 - ABoVE_biomass_se.json
 - ABoVE_landsat8.json

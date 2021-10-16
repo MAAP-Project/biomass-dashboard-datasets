@@ -1,6 +1,6 @@
 {
-  "id": "global",
-  "label": "All (Global)",
+  "id": "all",
+  "label": "All",
   "center": [
     0.0,
     0.0
@@ -13,7 +13,7 @@
       "id": "gedi_l4b"
     },
     {
-      "id": "icesat2_boreal"
+      "id": "above_biomass"
     },
     {
       "id": "nasa_jpl"

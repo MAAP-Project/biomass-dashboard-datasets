@@ -9,11 +9,11 @@ DATASETS:
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
 - paraguay-estimated-biomass.json
-- gedi-calval-plots.json
 - ABoVE_biomass.json
 - ABoVE_biomass_se.json
 - ABoVE_landsat8.json
 - ABoVE_topo.json
+- gedi-calval-plots.json
 COUNTRY_PILOTS:
 - japan
 - paraguay
@@ -25,3 +25,4 @@ PRODUCTS:
 - GEDI_L4B
 - ABoVE_Boreal
 - NASA_JPL
+- all

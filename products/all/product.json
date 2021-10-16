@@ -1,25 +1,59 @@
 {
-  "id": "all",
-  "label": "All",
-  "center": [
-    0.0,
-    0.0
-  ],
-  "datasets": [
-    {
-      "id": "cci_biomass"
+    "id": "all",
+    "label": "All",
+    "center": [
+        0,
+        0
+    ],
+    "polygon": {
+        "coordinates": [
+            [
+                [
+                    -180,
+                    -90
+                ],
+                [
+                    180,
+                    -90
+                ],
+                [
+                    180,
+                    90
+                ],
+                [
+                    -180,
+                    90
+                ],
+                [
+                    -180,
+                    -90
+                ]
+            ]
+        ],
+        "type": "Polygon"
     },
-    {
-      "id": "gedi_l4b"
-    },
-    {
-      "id": "above_biomass"
-    },
-    {
-      "id": "nasa_jpl"
-    },
-    {
-      "id": "nceo_africa"
-    }
-  ]
+    "bounding_box": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "indicators": [],
+    "datasets": [
+        {
+            "id": "cci_biomass"
+        },
+        {
+            "id": "gedi_l4b"
+        },
+        {
+            "id": "above_biomass"
+        },
+        {
+            "id": "nasa_jpl"
+        },
+        {
+            "id": "nceo_africa"
+        }
+    ]
 }

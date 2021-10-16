@@ -9,13 +9,13 @@
     "source": {
         "type": "raster",
         "tiles": [
-            "{titiler_server_url}/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/ec008049-7cfe-4dfc-a714-a217d7cb264e/jpl_tile_test.json&bidx=1&max_size=1024&resampling_method=nearest&return_mask=true&&rescale=0,1000&return_mask=true&colormap_name=viridis"
+            "{titiler_server_url}/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/fe6503b7-f8f7-4a78-a2ee-10dbbb05970d/jpl_tile_test.json&bidx=1&max_size=1024&resampling_method=nearest&return_mask=true&&rescale=0,500&return_mask=true&colormap_name=viridis"
         ]
     },
     "legend": {
         "type": "gradient-adjustable",
         "min": 0,
-        "max": 1000,
+        "max": 500,
         "stops": [
             "#440154",
             "#482173",

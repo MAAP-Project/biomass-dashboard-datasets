@@ -21,8 +21,9 @@ COUNTRY_PILOTS:
 - peru
 - wales
 PRODUCTS:
-- NCEO_Africa
+- all
+- ABoVE_Boreal
 - CCI_BIOMASS
 - GEDI_L4B
-- ABoVE_Boreal
 - NASA_JPL
+- NCEO_Africa

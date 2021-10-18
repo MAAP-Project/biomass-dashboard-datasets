@@ -11,7 +11,7 @@
     "source": {
         "type": "raster",
         "tiles": [
-            "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/{date}.tif&resampling_method=nearest&bidx=1&rescale=0,500&color_map=gist_earth"
+            "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/{date}.tif&resampling_method=nearest&bidx=1&rescale=0,500&color_map=gist_earth_r"
         ]
     },
     "legend": {
@@ -19,18 +19,18 @@
         "min": "0",
         "max": "500",
         "stops": [
-            "#000000",
-            "#0f2577",
-            "#1f567b",
-            "#2e7c7f",
-            "#3a8c66",
-            "#45994a",
-            "#76a652",
-            "#9db059",
-            "#bab060",
-            "#c9a87a",
+            "#fdfbfb",
             "#e3c3b5",
-            "#fdfbfb"
+            "#c9a87a",
+            "#bab060",
+            "#9db059",
+            "#76a652",
+            "#45994a",
+            "#3a8c66",
+            "#2e7c7f",
+            "#1f567b",
+            "#0f2577",
+            "#000000"
         ]
     },
     "info": ""

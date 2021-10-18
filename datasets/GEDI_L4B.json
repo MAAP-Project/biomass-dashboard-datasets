@@ -2,8 +2,6 @@
     "id": "gedi_l4b",
     "name": "GEDI L4B",
     "type": "raster",
-    "s3_location": "MOD13A1.006",
-    "s3_bucket": "modis-vi-nasa",
     "swatch": {
         "color": "#189C54",
         "name": "Dark Green"

@@ -9,13 +9,13 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/962f521c-b118-4fda-84df-6db8eca83776/cci_biomass_filtered.json&rescale=0,1000&bidx=1&nodata=0&colormap_name=viridis"
+      "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/2bc5f685-d090-4b59-8878-b9959cfe3eec/cci_biomass_2020.json&rescale=0,500&bidx=1&nodata=0&colormap_name=viridis"
     ]
   },
   "legend": {
     "type": "gradient",
     "min": "0",
-    "max": "1000",
+    "max": "500",
     "stops": [
       "#440154",
       "#482173",

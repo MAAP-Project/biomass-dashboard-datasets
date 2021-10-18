@@ -4,6 +4,7 @@ DATASETS:
 - NCEO_Africa.json
 - NCEO_Africa_SD.json
 - CCI_BIOMASS.json
+- CCI_BIOMASS_SD.json
 - GEDI_L4B.json
 - nasa-jpl.json
 - paraguay-forest-mask.json

@@ -13,7 +13,7 @@
       ]
   },
   "legend": {
-      "type": "gradient-adjustable",
+      "type": "gradient",
       "min": "0",
       "max": "75",
       "stops": [

@@ -1,4 +1,4 @@
-BUCKET: biomass-earthdata-dashboard-aimee
+BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
 - NCEO_Africa.json
@@ -20,9 +20,9 @@ COUNTRY_PILOTS:
 - peru
 - wales
 PRODUCTS:
-- NCEO_Africa
+- all
+- ABoVE_Boreal
 - CCI_BIOMASS
 - GEDI_L4B
-- ABoVE_Boreal
 - NASA_JPL
-- all
+- NCEO_Africa

@@ -13,6 +13,7 @@ DATASETS:
 - ABoVE_biomass_se.json
 - ABoVE_landsat8.json
 - ABoVE_topo.json
+- gedi-calval-plots.json
 COUNTRY_PILOTS:
 - japan
 - paraguay

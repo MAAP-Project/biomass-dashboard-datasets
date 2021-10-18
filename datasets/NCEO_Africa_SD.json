@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/1ab2d3b6-e5ab-4f8f-91dc-a4a77074e16f/SD_AGB_map_2017v0_cog.tif&rescale=0%2C310&colormap_name=reds&nodata=65536"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/1ab2d3b6-e5ab-4f8f-91dc-a4a77074e16f/SD_AGB_map_2017v0_cog.tif&rescale=0%2C310&colormap_name=Reds&nodata=65536"
     ]
   },
   "legend": {

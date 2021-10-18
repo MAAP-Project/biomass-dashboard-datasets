@@ -9,27 +9,27 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/1ab2d3b6-e5ab-4f8f-91dc-a4a77074e16f/SD_AGB_map_2017v0_cog.tif&rescale=0%2C310&colormap_name=viridis&nodata=65536"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/372872c1-3bda-4eee-bb7d-fb6f0cadfe45/5_biomass_cog.masked.tif&colormap_name=Reds&rescale=0,140&bidx=1"
     ]
-  },  
+  },
   "legend": {
-    "type": "gradient-adjustable",
-    "min": "0",
-    "max": "20",
-    "stops": [
-        "#fff5f0",
-        "#fee6da",
-        "#fdcfbc",
-        "#fcb498",
-        "#fc9676",
-        "#fb7959",
-        "#f7593f", 
-        "#ec382b",
-        "#d21e20",
-        "#b61319",
-        "#940b13",
-        "#67000d"
-    ]
+      "type": "gradient-adjustable",
+      "min": 0,
+      "max": 140,
+      "stops": [
+          "#fff5f0",
+          "#fee6da",
+          "#fdcfbc",
+          "#fcb498",
+          "#fc9676",
+          "#fb7959",
+          "#f7593f",
+          "#ec382b",
+          "#d21e20",
+          "#b61319",
+          "#940b13",
+          "#67000d"
+      ]
   },
   "info": "The total uncertainty (SD) at pixel level is composed of different sources of error, which are assumed to be random and independent."
 }

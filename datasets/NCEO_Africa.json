@@ -9,13 +9,13 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/b14104ef-4bf3-419c-93dd-d877fc34e23c/AGB_map_2017v0_cog.tif&rescale=0,730&colormap_name=viridis"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/b14104ef-4bf3-419c-93dd-d877fc34e23c/AGB_map_2017v0_cog.tif&rescale=0,500&colormap_name=viridis"
     ]
   },
   "legend": {
     "type": "gradient-adjustable",
     "min": 0,
-    "max": 730,
+    "max": 500,
     "stops": [
       "#440154",
       "#482173",

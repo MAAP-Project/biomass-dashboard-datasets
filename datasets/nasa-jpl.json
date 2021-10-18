@@ -9,7 +9,7 @@
     "source": {
         "type": "raster",
         "tiles": [
-            "{titiler_server_url}/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/fe6503b7-f8f7-4a78-a2ee-10dbbb05970d/jpl_tile_test.json&bidx=1&max_size=1024&resampling_method=nearest&return_mask=true&&rescale=0,500&return_mask=true&colormap_name=viridis"
+            "{titiler_server_url}/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/fe6503b7-f8f7-4a78-a2ee-10dbbb05970d/jpl_tile_test.json&bidx=1&max_size=1024&resampling_method=nearest&return_mask=true&&rescale=0,500&return_mask=true&colormap_name=gist_earth"
         ]
     },
     "legend": {
@@ -17,18 +17,18 @@
         "min": 0,
         "max": 500,
         "stops": [
-            "#440154",
-            "#482173",
-            "#433e85",
-            "#38588c",
-            "#2d708e",
-            "#25858e",
-            "#1e9b8a",
-            "#2ab07f",
-            "#52c569",
-            "#86d549",
-            "#c2df23",
-            "#fde725"
+            "#000000",
+            "#0f2577",
+            "#1f567b",
+            "#2e7c7f",
+            "#3a8c66",
+            "#45994a",
+            "#76a652",
+            "#9db059",
+            "#bab060",
+            "#c9a87a",
+            "#e3c3b5",
+            "#fdfbfb"
         ]
     },
     "info": ""

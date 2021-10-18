@@ -5,7 +5,6 @@ on:
       - main
       - staging
       - production
-      - aimee
 
 jobs:
   run-metadata-generator:

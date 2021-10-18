@@ -151,7 +151,7 @@ def _is_global_dataset(dataset: dict) -> bool:
         [
             i in dataset["source"]["tiles"][0]
             for i in ["{spotlightId}", "greatlakes", "togo"]
-            if dataset['source']['tiles']
+            if dataset['source'].get('tiles')
         ]
     )
 

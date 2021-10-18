@@ -11,24 +11,24 @@
     "tiles": [
       "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/1ab2d3b6-e5ab-4f8f-91dc-a4a77074e16f/SD_AGB_map_2017v0_cog.tif&rescale=0%2C310&colormap_name=viridis&nodata=65536"
     ]
-  },
+  },  
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": "0",
-    "max": "310",
+    "max": "20",
     "stops": [
-      "#440154",
-      "#482173",
-      "#433e85",
-      "#38588c",
-      "#2d708e",
-      "#25858e",
-      "#1e9b8a",
-      "#2ab07f",
-      "#52c569",
-      "#86d549",
-      "#c2df23",
-      "#fde725"
+        "#fff5f0",
+        "#fee6da",
+        "#fdcfbc",
+        "#fcb498",
+        "#fc9676",
+        "#fb7959",
+        "#f7593f", 
+        "#ec382b",
+        "#d21e20",
+        "#b61319",
+        "#940b13",
+        "#67000d"
     ]
   },
   "info": "The total uncertainty (SD) at pixel level is composed of different sources of error, which are assumed to be random and independent."

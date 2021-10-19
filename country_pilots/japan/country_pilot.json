@@ -42,6 +42,9 @@
   "datasets": [
         {
             "id": "cci_biomass"
+        },
+        {
+            "id": "nasa_jpl"
         }
     ]
 }

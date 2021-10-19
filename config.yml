@@ -5,7 +5,7 @@ DATASETS:
 - NCEO_Africa_SD.json
 - CCI_BIOMASS.json
 - CCI_BIOMASS_SD.json
-- GEDI_L4B.json
+# - GEDI_L4B.json
 - nasa-jpl.json
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
@@ -24,6 +24,6 @@ COUNTRY_PILOTS:
 PRODUCTS:
 - NCEO_Africa
 - CCI_BIOMASS
-- GEDI_L4B
 - ABoVE_Boreal
+# - GEDI_L4B
 - NASA_JPL

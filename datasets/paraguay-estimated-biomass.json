@@ -1,5 +1,5 @@
 {
-    "id": "paraguay-estimated-biomass",
+    "id": "paraguay_estimated_biomass",
     "name": "Estimated biomass in Paraguay within 6km grids",
     "type": "raster",
     "swatch": {

@@ -48,6 +48,12 @@
         },
         {
             "id": "paraguay-estimated-biomass"
+        },
+        {
+            "id": "cci_biomass"
+        },
+        {
+            "id": "nasa_jpl"
         }
     ]
 }

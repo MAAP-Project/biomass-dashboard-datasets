@@ -41,10 +41,10 @@
   "indicators": [],
   "datasets": [
     {
-      "id": "cci_biomass"
+      "id": "above_biomass"
     },
     {
-      "id": "above_boreal"
+      "id": "cci_biomass"
     },
     {
       "id": "nasa_jpl"

@@ -47,7 +47,7 @@ This will create and copy the sites file to the S3 location indicated in `BUCKET
 
 ```bash
 export STAGE=local
-python dataset_metadata_generator/src/main.py
+python dataset_metadata_generator/src/main.py | jq .
 python products_metadata_generator/src/main.py | jq .
 python country_pilots_metadata_generator/src/main.py | jq .
 ```

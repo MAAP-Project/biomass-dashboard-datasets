@@ -17,7 +17,7 @@
   "order": 3,
   "info": "Maximum Normalized Difference Vegetation Index (NDVI) value, and indicator of plant growth, composite from spring 2015-2020. One of the Landsat 8 derived covariates for calculating biomass.",
   "legend": {
-    "type": "gradient-adjustable",
+    "type": "gradient",
     "min": "0",
     "max": "0.5",
     "stops": [

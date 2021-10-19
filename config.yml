@@ -22,8 +22,9 @@ COUNTRY_PILOTS:
 - wales
 - solomon_islands
 PRODUCTS:
-- NCEO_Africa
-- CCI_BIOMASS
+- all
 - ABoVE_Boreal
+- CCI_BIOMASS
 # - GEDI_L4B
 - NASA_JPL
+- NCEO_Africa

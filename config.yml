@@ -5,7 +5,7 @@ DATASETS:
 - NCEO_Africa_SD.json
 - CCI_BIOMASS.json
 - CCI_BIOMASS_SD.json
-- GEDI_L4B.json
+# - GEDI_L4B.json
 - nasa-jpl.json
 - paraguay-forest-mask.json
 - paraguay-tree-cover.json
@@ -14,14 +14,17 @@ DATASETS:
 - ABoVE_biomass_se.json
 - ABoVE_landsat8.json
 - ABoVE_topo.json
+- gedi-calval-plots.json
 COUNTRY_PILOTS:
 - japan
 - paraguay
 - peru
 - wales
+- solomon_islands
 PRODUCTS:
-- NCEO_Africa
-- CCI_BIOMASS
-- GEDI_L4B
+- all
 - ABoVE_Boreal
+- CCI_BIOMASS
+# - GEDI_L4B
 - NASA_JPL
+- NCEO_Africa

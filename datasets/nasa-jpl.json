@@ -9,7 +9,7 @@
     "source": {
         "type": "raster",
         "tiles": [
-            "{titiler_server_url}/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/fe6503b7-f8f7-4a78-a2ee-10dbbb05970d/jpl_tile_test.json&bidx=1&max_size=1024&resampling_method=nearest&return_mask=true&&rescale=0,500&return_mask=true&colormap_name=gist_earth_r"
+            "{titiler_server_url}/mosaicjson/mosaics/f8e82c35-f72f-48d6-b048-677bd180f79c/tiles/{z}/{x}/{y}?bidx=1&max_size=1024&resampling_method=nearest&rescale=0,500&return_mask=true&colormap_name=gist_earth_r"
         ]
     },
     "legend": {

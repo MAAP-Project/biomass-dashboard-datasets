@@ -1,30 +1,30 @@
 BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
-- NCEO_Africa.json
-- NCEO_Africa_SD.json
-- CCI_BIOMASS.json
-- CCI_BIOMASS_SD.json
-# - GEDI_L4B.json
-- nasa-jpl.json
-- paraguay-forest-mask.json
-- paraguay-tree-cover.json
-- paraguay-estimated-biomass.json
-- ABoVE_biomass.json
-- ABoVE_biomass_se.json
-- ABoVE_landsat8.json
-- ABoVE_topo.json
-- gedi-calval-plots.json
+  - nceo_africa
+  - nceo_africa_sd
+  - cci_biomass
+  - cci_biomass_sd
+  - gedi_l4b
+  - nasa_jpl
+  - paraguay_forest_mask
+  - paraguay_tree_cover
+  - paraguay_estimated_biomass
+  - above_biomass
+  - above_biomass_se
+  - above_landsat8
+  - above_topo
+  - gedi_calval_plots
 COUNTRY_PILOTS:
-- japan
-- paraguay
-- peru
-- wales
-- solomon_islands
+  - japan
+  - paraguay
+  - peru
+  - solomon_islands
+  - wales
 PRODUCTS:
-- all
-- ABoVE_Boreal
-- CCI_BIOMASS
-# - GEDI_L4B
-- NASA_JPL
-- NCEO_Africa
+  - global
+  - above_boreal
+  - cci_biomass
+  # - gedi_l4b
+  - nasa_jpl
+  - nceo_africa

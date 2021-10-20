@@ -46,7 +46,7 @@ def create_json():
 
     country_pilots = _gather_data(
         dirpath=INPUT_FILEPATH, 
-        visible_country_pilots=config['COUNTRY_PILOTS']
+        visible_ids=config.get('COUNTRY_PILOTS', [])
     )
 
     bucket_name = os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET'))
@@ -69,15 +69,15 @@ def create_json():
     return country_pilots
 
 
-def _gather_data(dirpath: str, visible_country_pilots: List[str] = None) -> Dict[str, List[Dict[str, Any]]]:
+def _gather_data(dirpath: str, visible_ids: List[str]) -> Dict[str, List[Dict[str, Any]]]:
     """Gathers site info and creates a JSON structure from it"""
     parser = html5lib.HTMLParser(strict=True)
 
-    results = []
-    for path in os.walk(dirpath):
-        cp = path[0].rsplit("/", 1)[1]
-        if visible_country_pilots and cp not in visible_country_pilots:
+    country_pilots = {}
+    for f in os.scandir(dirpath):
+        if not f.is_dir():
             continue
+        cp = f.path.rsplit("/", 1)[1]
         with open(os.path.join(dirpath, cp, "country_pilot.json"), "r") as f:
             entity = json.loads(f.read())
             try:
@@ -89,8 +89,9 @@ def _gather_data(dirpath: str, visible_country_pilots: List[str] = None) -> Dict
             summary = f.read()
             parser.parseFragment(summary)
             entity["summary"] = summary
-        results.append(entity)    
-    return {"country_pilots" : results }
+        country_pilots[entity["id"]] = entity
+
+    return {"country_pilots": [country_pilots[x] for x in visible_ids]}
 
 if __name__ == "__main__":
     print(json.dumps(create_json()))

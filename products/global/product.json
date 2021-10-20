@@ -5,12 +5,46 @@
     0.0,
     0.0
   ],
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          -180,
+          -90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bounding_box": [
+    -180,
+    -90,
+    180,
+    90
+  ],
+  "indicators": [],
   "datasets": [
     {
-      "id": "cci_biomass"
+      "id": "above_biomass"
     },
     {
-      "id": "icesat2_boreal"
+      "id": "cci_biomass"
     },
     {
       "id": "nasa_jpl"

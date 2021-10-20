@@ -1,5 +1,5 @@
 {
-    "id": "gedi-calval-plots",
+    "id": "gedi_calval_plots",
     "name": "GEDI Cal/Val Field Data",
     "type": "geojson",
     "source": {

@@ -1,7 +1,7 @@
 {
     "id": "above_boreal",
     "label": "ABoVE Boreal",
-     "center": [
+    "center": [
         -151.3,
         62.8
     ],
@@ -33,8 +33,10 @@
         ]
     },
     "bounding_box": [
-        -167.50, 53.79,
-        -137.46, 71.47
+        -167.50,
+        53.79,
+        -137.46,
+        71.47
     ],
     "indicators": [],
     "datasets": [
@@ -51,7 +53,7 @@
             "id": "above_topo"
         },
         {
-            "id": "gedi-calval-plots"
+            "id": "gedi_calval_plots"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "id": "above_topo",
+    "id": "icesat2_boreal_topo",
     "name": "TSRI",
     "type": "raster",
     "time_unit": "day",

@@ -1,6 +1,6 @@
 {
-    "id": "above_boreal",
-    "label": "ABoVE Boreal",
+    "id": "ICESat2_boreal",
+    "label": "ICESat-2 Boreal",
     "center": [
         -151.3,
         62.8
@@ -41,16 +41,16 @@
     "indicators": [],
     "datasets": [
         {
-            "id": "above_biomass"
+            "id": "icesat2_boreal_biomass"
         },
         {
-            "id": "above_biomass_se"
+            "id": "icesat2_boreal_biomass_se"
         },
         {
-            "id": "above_landsat8"
+            "id": "icesat2_boreal_landsat8"
         },
         {
-            "id": "above_topo"
+            "id": "icesat2_boreal_topo"
         },
         {
             "id": "gedi_calval_plots"

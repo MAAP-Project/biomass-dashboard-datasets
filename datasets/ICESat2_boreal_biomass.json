@@ -1,6 +1,6 @@
 {
-    "id": "above_biomass",
-    "name": "ABoVE Biomass",
+    "id": "icesat2_boreal_biomass",
+    "name": "ICESat-2 Boreal Biomass",
     "type": "raster",
     "swatch": {
         "color": "#189C54",

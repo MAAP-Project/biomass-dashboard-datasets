@@ -1,6 +1,6 @@
 {
-  "id": "above_biomass_se",
-  "name": "ABoVE Biomass Standard Error",
+  "id": "icesat2_boreal_biomass_se",
+  "name": "ICESat-2 Boreal Biomass SE",
   "type": "raster",
   "swatch": {
       "color": "#189C54",

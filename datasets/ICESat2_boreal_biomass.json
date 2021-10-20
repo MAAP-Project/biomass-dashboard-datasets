@@ -31,5 +31,5 @@
             "#000000"
         ]
     },
-    "info": "Boreal, above ground biomass (AGB) calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
+    "info": "Boreal, above ground biomass (AGB), Mg/ha, calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
 }

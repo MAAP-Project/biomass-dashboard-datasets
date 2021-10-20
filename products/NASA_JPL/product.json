@@ -42,6 +42,9 @@
     "datasets": [
         {
             "id": "nasa_jpl"
+        },
+        {
+            "id": "nasa_jpl_se"
         }
     ]
 }

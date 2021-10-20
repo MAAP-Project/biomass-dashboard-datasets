@@ -10,10 +10,10 @@ DATASETS:
   - paraguay_forest_mask
   - paraguay_tree_cover
   - paraguay_estimated_biomass
-  - above_biomass
-  - above_biomass_se
-  - above_landsat8
-  - above_topo
+  - icesat2_boreal_biomass
+  - icesat2_boreal_biomass_se
+  - icesat2_boreal_landsat8
+  - icesat2_boreal_topo
   - gedi_calval_plots
 COUNTRY_PILOTS:
   - japan
@@ -23,7 +23,7 @@ COUNTRY_PILOTS:
   - wales
 PRODUCTS:
   - global
-  - above_boreal
+  - icesat2_boreal
   - cci_biomass
   # - gedi_l4b
   - nasa_jpl

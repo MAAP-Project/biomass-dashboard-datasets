@@ -1,5 +1,5 @@
 {
-  "id": "above_landsat8",
+  "id": "icesat2_boreal_landsat8",
   "name": "Max NDVI",
   "type": "raster",
   "time_unit": "day",

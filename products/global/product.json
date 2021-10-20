@@ -41,7 +41,7 @@
   "indicators": [],
   "datasets": [
     {
-      "id": "above_biomass"
+      "id": "icesat2_boreal_biomass"
     },
     {
       "id": "cci_biomass"

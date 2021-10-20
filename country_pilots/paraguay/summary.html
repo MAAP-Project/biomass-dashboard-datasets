@@ -1,106 +1,41 @@
-<p>Paraguay is a landlocked South American country that is divided by the Río Paraguay into two distinct geographic
-    regions. The east (Paraguay Oriental) contains humid Atlantic, Chaco, and Cerrado forests, while the west (Paraguay
-    Occidental) is primarily dry and humid Chaco. The Gran Chaco covers over 60 percent of Paraguay’s land and is South
-    America’s second largest forest after the Amazon. In 2014 and 2015 Paraguay deployed their first national forest
-    inventory (NFI) as part of their REDD+ program. Paraguay is now seeking to update their NFI and expand to regions
-    that
-    were unable to be surveyed due to inaccessibility in the vast forests.
-</p>
-
 <p>
-    <a
-        href="/country_pilots/paraguay?map=-58.489%2C-23.5095%2C4.94%26layers=paraguay-forest-mask">
-        View the 2020 Paraguay Forest/Non-Forest Mask
-    </a>
-</p>
-
-<p>Remote sensing data offers an attractive alternative to field surveys since it is freely accessible, spatially
-    explicit,
-    and can be used to model forest characteristics such as aboveground biomass. A collaborative team involving members
-    of
-    Paraguay’s National Forestry Institute, USGS SilvaCarbon, the CEOS Harmonization group, and US Forest Service is
-    exploring a remote sensing approach to national biomass estimation. The approach integrates Paraguay’s NFI with GEDI
-    LiDAR data and a Landsat canopy cover model to create a statistically viable estimate for Paraguay’s mean forest
-    biomass. Importantly, the model can quantify uncertainties and be used to calculate a confidence interval around the
-    estimate of mean biomass.
+  Paraguay is a landlocked South American country that contains vast forest ecosystems. The Gran Chaco covers over 60
+  percent of Paraguay’s land and is South America’s second largest forest after the Amazon. The carbon stored in
+  Paraguay’s forests was measured as part of the national REDD+ program, when the first national forest inventory (NFI)
+  was deployed from 2014 to 2016. Paraguay is now seeking to update the NFI and expand to regions that were unreachable
+  in
+  the original survey.
+  Remote sensing data offers an attractive alternative to field surveys since it is freely accessible, spatially
+  explicit,
+  and can be used to measure forest characteristics in areas that are inaccessible. A collaborative team involving
+  members
+  of Paraguay’s Instituto Forestal Nacional, USGS SilvaCarbon, the CEOS Biomass Harmonization group, and US Forest
+  Service
+  is exploring a remote sensing approach to update and supplement national biomass estimation.
 </p>
 
 <div style="text-align: center;">
-    <figure>
-        <img src="/assets/graphics/content/country_pilots/paraguay_2.jpg" />
-        <figcaption></figcaption>
-    </figure>
+  <figure>
+    <img src="/assets/graphics/content/country_pilots/paraguay_1.jpg" />
+    <figcaption></figcaption>
+  </figure>
 </div>
 
 <p>
-    Biomass is estimated with a model that relates field measurements to remote sensing data. NFI data is matched to
-    spatially overlapping GEDI waveforms to form a model building dataset, and all plots without colocated GEDI shot are
-    excluded.
+  The map shown to the left reflects NFI-calibrated interpretations of biomass at the locations of millions of
+  measurements from NASA’s GEDI (Global Ecosystem Dynamics Investigation) lidar instrument, which is mounted on the
+  International Space Station.
 </p>
 
 <div style="text-align: center;">
-    <figure>
-        <img src="/assets/graphics/content/country_pilots/paraguay_3.jpg" />
-        <figcaption></figcaption>
-    </figure>
+  <figure>
+    <img src="/assets/graphics/content/country_pilots/paraguay_2.png" />
+    <figcaption></figcaption>
+  </figure>
 </div>
 
 <p>
-    A map of percent canopy cover is also used in the biomass model, which we created for 2019 in order to be consistent
-    with the first GEDI observations.
-</p>
-
-<div style="text-align: center;">
-    <figure>
-        <img src="/assets/graphics/content/country_pilots/paraguay_4.jpg" />
-        <figcaption></figcaption>
-    </figure>
-</div>
-
-<p>
-    <a href="/country_pilots/paraguay?map=-58.489%2C-23.5095%2C4.94%26layers=paraguay-tree-cover">
-        View the percentage tree cover for 2019
-    </a>
-</p>
-
-
-<p>
-    A regression model is used to predict field biomass using the LiDAR and canopy cover data.
-</p>
-
-<div style="text-align: center;">
-    <figure>
-        <img src="/assets/graphics/content/country_pilots/paraguay_6.jpg" />
-        <figcaption></figcaption>
-    </figure>
-</div>
-
-<p>
-    The model can then be applied to all GEDI footprints in the country to create a national estimate of biomass and
-    uncertainty. The national estimate can also be decomposed to subdomains, such as by forest types or within 6 km
-    tiles.
-</p>
-
-<div style="text-align: center;">
-    <figure>
-        <img src="/assets/graphics/content/country_pilots/paraguay_5.jpg" />
-        <figcaption></figcaption>
-    </figure>
-</div>
-
-
-<p>
-    <a href="/country_pilots/paraguay?map=-58.489%2C-23.5095%2C4.94%26layers=paraguay-estimated-biomass">
-        View the estimated biomass in Paraguay within 6km grids
-    </a>
-</p>
-
-
-<p>
-    Our national estimate of biomass is 66.01 Mg per hectare (± ## 95% confidence interval), which is with the 69.89
-    Mg/ha
-    reported by Paraguay to the FAO in 2020. Our generalizable approach can be applied anywhere with forests and GEDI
-    observations. The field data used for model calibration does not need to be randomly distributed, making it suitable
-    for
-    countries without a well-established forest inventory.
+  Our national estimate of biomass is 66.01 Mg per hectare (± ## 95% confidence interval), which is consistent with the
+  69.89 Mg/ha value reported by Paraguay to the FAO in 2020. Our generalizable approach can be applied anywhere with
+  forests and GEDI observations.
 </p>

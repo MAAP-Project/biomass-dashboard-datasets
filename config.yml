@@ -7,6 +7,7 @@ DATASETS:
   - cci_biomass_sd
   - gedi_l4b
   - nasa_jpl
+  - nasa_jpl_se
   - paraguay_forest_mask
   - paraguay_tree_cover
   - paraguay_estimated_biomass

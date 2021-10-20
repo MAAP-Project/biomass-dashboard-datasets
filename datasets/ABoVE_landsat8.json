@@ -11,7 +11,7 @@
   "source": {
       "type": "raster",
       "tiles": [
-          "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}.png?url=s3://maap-ops-workspace/shared/lduncanson/DPS_tile_lists/Landsat_tindex_master_mosaic.json&resampling_method=nearest&return_mask=true&bidx=6&rescale=0.01%2C0.5&colormap_name=viridis"
+          "{titiler_server_url}/mosaicjson/mosaics/8610ecf4-d017-419b-a89a-dfb3b4e508f1/tiles/{z}/{x}/{y}.png?resampling_method=nearest&return_mask=true&bidx=6&rescale=0.01%2C0.5&colormap_name=viridis"
       ]
   },
   "order": 3,

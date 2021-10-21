@@ -40,11 +40,11 @@
   ],
   "indicators": [],
   "datasets": [
-      {
-          "id": "nasa_jpl"
-      },
-      {
-          "id": "nasa_jpl_se"
-      }
+    {
+      "id": "nasa_jpl"
+    },
+    {
+      "id": "nasa_jpl_se"
+    }
   ]
 }

@@ -1,25 +1,25 @@
 {
-    "id": "paraguay_forest_mask",
-    "name": "2020 Paraguay Forest/Non-Forest Mask",
+  "id": "paraguay_forest_mask",
+  "name": "2020 Paraguay Forest/Non-Forest Mask",
+  "type": "raster",
+  "swatch": {
+    "color": "#C0C0C0",
+    "name": "Grey"
+  },
+  "source": {
     "type": "raster",
-    "swatch": {
-        "color": "#C0C0C0",
-        "name": "Grey"
-    },
-    "source": {
-        "type": "raster",
-        "tiles": [
-            "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/45fe2e6f-2007-4cb1-964a-f337f39f4fdc/1_forest_cog.masked.tif&rescale=0,1&nodata=0&colormap_name=greens"
-        ]
-    },
-    "legend": {
-        "type": "categorical",
-        "stops": [
-            {
-                "color": "#00441b",
-                "label": "Forest"
-            }
-        ]
-    },
-    "info": "A binary forest/non-forest mask for Paraguay for 2020."
+    "tiles": [
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/45fe2e6f-2007-4cb1-964a-f337f39f4fdc/1_forest_cog.masked.tif&rescale=0,1&nodata=0&colormap_name=greens"
+    ]
+  },
+  "legend": {
+    "type": "categorical",
+    "stops": [
+      {
+        "color": "#00441b",
+        "label": "Forest"
+      }
+    ]
+  },
+  "info": "A binary forest/non-forest mask for Paraguay for 2020."
 }

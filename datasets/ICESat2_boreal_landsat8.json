@@ -5,14 +5,14 @@
   "time_unit": "day",
   "is_periodic": false,
   "swatch": {
-      "color": "#189C54",
-      "name": "Dark Green"
+    "color": "#189C54",
+    "name": "Dark Green"
   },
   "source": {
-      "type": "raster",
-      "tiles": [
-          "{titiler_server_url}/mosaicjson/mosaics/8610ecf4-d017-419b-a89a-dfb3b4e508f1/tiles/{z}/{x}/{y}.png?resampling_method=nearest&return_mask=true&bidx=6&rescale=0.01%2C0.5&colormap_name=viridis"
-      ]
+    "type": "raster",
+    "tiles": [
+      "https://titiler.maap-project.org/mosaicjson/mosaics/8610ecf4-d017-419b-a89a-dfb3b4e508f1/tiles/{z}/{x}/{y}.png?resampling_method=nearest&return_mask=true&bidx=6&rescale=0.01%2C0.5&colormap_name=viridis"
+    ]
   },
   "order": 3,
   "info": "Maximum Normalized Difference Vegetation Index (NDVI) value, and indicator of plant growth, composite from spring 2015-2020. One of the Landsat 8 derived covariates for calculating biomass.",
@@ -21,18 +21,18 @@
     "min": "0",
     "max": "0.5",
     "stops": [
-        "#440154",
-        "#482173",
-        "#433e85",
-        "#38588c",
-        "#2d708e",
-        "#25858e",
-        "#1e9b8a",
-        "#2ab07f",
-        "#52c569",
-        "#86d549",
-        "#c2df23",
-        "#fde725"
+      "#440154",
+      "#482173",
+      "#433e85",
+      "#38588c",
+      "#2d708e",
+      "#25858e",
+      "#1e9b8a",
+      "#2ab07f",
+      "#52c569",
+      "#86d549",
+      "#c2df23",
+      "#fde725"
     ]
   }
 }

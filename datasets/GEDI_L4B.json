@@ -1,35 +1,36 @@
 {
-    "id": "gedi_l4b",
-    "name": "GEDI L4B",
+  "id": "gedi_l4b",
+  "name": "GEDI L4B",
+  "type": "raster",
+  "swatch": {
+    "color": "#189C54",
+    "name": "Dark Green"
+  },
+  "source": {
     "type": "raster",
-    "swatch": {
-        "color": "#189C54",
-        "name": "Dark Green"
-    },
-    "source": {
-        "type": "raster",
-        "tiles": [
-            "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/2020.05.08.tif&resampling_method=nearest&bidx=1&rescale=0,500&color_map=gist_earth_r"
-        ]
-    },
-    "legend": {
-        "type": "gradient",
-        "min": "0",
-        "max": "500",
-        "stops": [
-            "#fdfbfb",
-            "#e3c3b5",
-            "#c9a87a",
-            "#bab060",
-            "#9db059",
-            "#76a652",
-            "#45994a",
-            "#3a8c66",
-            "#2e7c7f",
-            "#1f567b",
-            "#0f2577",
-            "#000000"
-        ]
-    },
-    "info": ""
+    "tiles": [
+      "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/2020.05.08.tif&resampling_method=nearest&bidx=1&rescale=0,500&color_map=gist_earth_r"
+    ]
+  },
+  "legend": {
+    "type": "gradient",
+    "min": "0",
+    "max": "500",
+    "units": "Mg/ha",
+    "stops": [
+      "#fdfbfb",
+      "#e3c3b5",
+      "#c9a87a",
+      "#bab060",
+      "#9db059",
+      "#76a652",
+      "#45994a",
+      "#3a8c66",
+      "#2e7c7f",
+      "#1f567b",
+      "#0f2577",
+      "#000000"
+    ]
+  },
+  "info": ""
 }

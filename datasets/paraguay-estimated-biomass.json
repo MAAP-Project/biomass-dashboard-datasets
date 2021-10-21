@@ -1,35 +1,36 @@
 {
-    "id": "paraguay_estimated_biomass",
-    "name": "Estimated biomass in Paraguay within 6km grids",
+  "id": "paraguay_estimated_biomass",
+  "name": "Estimated biomass in Paraguay within 6km grids",
+  "type": "raster",
+  "swatch": {
+    "color": "#189C54",
+    "name": "Dark Green"
+  },
+  "source": {
     "type": "raster",
-    "swatch": {
-        "color": "#189C54",
-        "name": "Dark Green"
-    },
-    "source": {
-        "type": "raster",
-        "tiles": [
-            "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,500&colormap_name=gist_earth_r"
-        ]
-    },
-    "legend": {
-        "type": "gradient",
-        "min": "0",
-        "max": "500",
-        "stops": [
-            "#fdfbfb",
-            "#e3c3b5",
-            "#c9a87a",
-            "#bab060",
-            "#9db059",
-            "#76a652",
-            "#45994a",
-            "#3a8c66",
-            "#2e7c7f",
-            "#1f567b",
-            "#0f2577",
-            "#000000"
-        ]
-    },
-    "info": "Estimated biomass within 6km grids."
+    "tiles": [
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,500&colormap_name=gist_earth_r"
+    ]
+  },
+  "legend": {
+    "type": "gradient",
+    "min": "0",
+    "max": "500",
+    "units": "Mg/ha",
+    "stops": [
+      "#fdfbfb",
+      "#e3c3b5",
+      "#c9a87a",
+      "#bab060",
+      "#9db059",
+      "#76a652",
+      "#45994a",
+      "#3a8c66",
+      "#2e7c7f",
+      "#1f567b",
+      "#0f2577",
+      "#000000"
+    ]
+  },
+  "info": "Estimated biomass within 6km grids."
 }

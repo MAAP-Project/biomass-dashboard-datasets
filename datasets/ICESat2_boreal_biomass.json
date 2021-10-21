@@ -9,13 +9,14 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0%2C500&colormap_name=gist_earth_r"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0%2C500&colormap_name=gist_earth_r"
     ]
   },
   "legend": {
     "type": "gradient",
     "min": "0",
     "max": "500",
+    "units": "Mg/ha",
     "stops": [
       "#fdfbfb",
       "#e3c3b5",

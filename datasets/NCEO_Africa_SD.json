@@ -16,6 +16,7 @@
     "type": "gradient",
     "min": "0",
     "max": "310",
+    "units": "Mg/ha",
     "stops": [
       "#fff5f0",
       "#fee6da",

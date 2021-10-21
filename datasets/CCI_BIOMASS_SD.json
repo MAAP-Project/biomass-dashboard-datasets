@@ -18,19 +18,19 @@
     "max": "500",
     "units": "Mg/ha",
     "stops": [
-          "#fff5f0",
-          "#fee6da",
-          "#fdcfbc",
-          "#fcb498",
-          "#fc9676",
-          "#fb7959",
-          "#f7593f", 
-          "#ec382b",
-          "#d21e20",
-          "#b61319",
-          "#940b13",
-          "#67000d"
-      ]
+      "#fff5f0",
+      "#fee6da",
+      "#fdcfbc",
+      "#fcb498",
+      "#fc9676",
+      "#fb7959",
+      "#f7593f",
+      "#ec382b",
+      "#d21e20",
+      "#b61319",
+      "#940b13",
+      "#67000d"
+    ]
   },
   "info": "The primary science objective ESA’s Climate Change Initiative (CCI) Biomass project is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2010, 2017 and 2018), with these being capable of supporting quantification of biomass change."
 }

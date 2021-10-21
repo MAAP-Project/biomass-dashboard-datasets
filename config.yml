@@ -24,8 +24,8 @@ COUNTRY_PILOTS:
   - wales
 PRODUCTS:
   - global
-  - icesat2_boreal
   - cci_biomass
   # - gedi_l4b
+  - icesat2_boreal
   - nasa_jpl
   - nceo_africa

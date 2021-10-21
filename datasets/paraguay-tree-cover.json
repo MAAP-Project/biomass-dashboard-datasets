@@ -3,8 +3,8 @@
   "name": "% Tree cover for 2019",
   "type": "raster", 
   "swatch": {
-      "color": "#189C54",
-      "name": "Dark Green"
+      "color": "#d1380e",
+      "name": "Amarantha Red"
   },
   "source": {
       "type": "raster",

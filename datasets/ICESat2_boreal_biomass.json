@@ -1,35 +1,35 @@
 {
-    "id": "icesat2_boreal_biomass",
-    "name": "ICESat-2 Boreal Biomass",
+  "id": "icesat2_boreal_biomass",
+  "name": "ICESat-2 Boreal Biomass",
+  "type": "raster",
+  "swatch": {
+    "color": "#189C54",
+    "name": "Dark Green"
+  },
+  "source": {
     "type": "raster",
-    "swatch": {
-        "color": "#189C54",
-        "name": "Dark Green"
-    },
-    "source": {
-        "type": "raster",
-        "tiles": [
-            "{titiler_server_url}/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0%2C500&colormap_name=gist_earth_r"
-        ]
-    },
-    "legend": {
-        "type": "gradient",
-        "min": "0",
-        "max": "500",
-        "stops": [
-            "#fdfbfb",
-            "#e3c3b5",
-            "#c9a87a",
-            "#bab060",
-            "#9db059",
-            "#76a652",
-            "#45994a",
-            "#3a8c66",
-            "#2e7c7f",
-            "#1f567b",
-            "#0f2577",
-            "#000000"
-        ]
-    },
-    "info": "Boreal, above ground biomass (AGB), Mg/ha, calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
+    "tiles": [
+      "{titiler_server_url}/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0%2C500&colormap_name=gist_earth_r"
+    ]
+  },
+  "legend": {
+    "type": "gradient",
+    "min": "0",
+    "max": "500",
+    "stops": [
+      "#fdfbfb",
+      "#e3c3b5",
+      "#c9a87a",
+      "#bab060",
+      "#9db059",
+      "#76a652",
+      "#45994a",
+      "#3a8c66",
+      "#2e7c7f",
+      "#1f567b",
+      "#0f2577",
+      "#000000"
+    ]
+  },
+  "info": "Boreal, above ground biomass (AGB), Mg/ha, calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
 }

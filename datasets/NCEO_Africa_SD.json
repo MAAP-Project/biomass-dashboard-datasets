@@ -3,8 +3,8 @@
   "name": "NCEO Africa Standard Deviation",
   "type": "raster",
   "swatch": {
-    "color": "#6976d7",
-    "name": "Moody Blue"
+    "color": "#c0392b",
+    "name": "Pomegranate"
   },
   "source": {
     "type": "raster",

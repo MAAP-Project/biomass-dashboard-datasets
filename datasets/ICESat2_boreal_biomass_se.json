@@ -3,8 +3,8 @@
   "name": "ICESat-2 Boreal Biomass SE",
   "type": "raster",
   "swatch": {
-      "color": "#fcaa46",
-      "name": "Prison Jumpsuit"
+    "color": "#c0392b",
+    "name": "Pomegranate"
   },
   "source": {
       "type": "raster",

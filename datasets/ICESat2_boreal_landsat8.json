@@ -5,8 +5,8 @@
   "time_unit": "day",
   "is_periodic": false,
   "swatch": {
-      "color": "#fcaa46",
-      "name": "Prison Jumpsuit"
+    "color": "#C0C0C0",
+    "name": "Grey"
   },
   "source": {
       "type": "raster",

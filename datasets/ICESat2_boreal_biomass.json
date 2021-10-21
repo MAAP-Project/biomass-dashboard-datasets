@@ -1,6 +1,6 @@
 {
-  "id": "paraguay_estimated_biomass",
-  "name": "Estimated biomass in Paraguay within 6km grids",
+  "id": "icesat2_boreal_biomass",
+  "name": "ICESat-2 Boreal Biomass",
   "type": "raster",
   "swatch": {
     "color": "#189C54",
@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,500&colormap_name=gist_earth_r"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0%2C500&colormap_name=gist_earth_r"
     ]
   },
   "legend": {
@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": "Estimated biomass within 6km grids."
+  "info": "Boreal, above ground biomass (AGB), Mg/ha, calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
 }

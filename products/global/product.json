@@ -5,15 +5,46 @@
     0.0,
     0.0
   ],
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          -180,
+          -90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bounding_box": [
+    -180,
+    -90,
+    180,
+    90
+  ],
+  "indicators": [],
   "datasets": [
     {
+      "id": "icesat2_boreal_biomass"
+    },
+    {
       "id": "cci_biomass"
-    },
-    {
-      "id": "gedi_l4b"
-    },
-    {
-      "id": "icesat2_boreal"
     },
     {
       "id": "nasa_jpl"

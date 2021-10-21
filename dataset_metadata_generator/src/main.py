@@ -50,7 +50,8 @@ def handler():
 
     # TODO: defined TypedDicts for these!
     listed_datasets = config['DATASETS']
-    datasets = _gather_json_data(DATASETS_JSON_FILEPATH, filter=listed_datasets)
+    datasets = _gather_json_data(
+        DATASETS_JSON_FILEPATH, visible_dataset_ids=listed_datasets)
     if STAC_API_URL:
         stac_datasets = _fetch_stac_items()
         datasets.extend(stac_datasets)
@@ -130,18 +131,21 @@ def _gather_datasets_metadata(datasets: List[dict]):
     return metadata
 
 
-def _gather_json_data(dirpath: str, filter: List[str] = None) -> List[dict]:
-    """Gathers all JSON files from within a diven directory"""
+def _gather_json_data(dirpath: str, visible_dataset_ids: List[str]) -> List[dict]:
+    """Gathers all JSON files from within a given directory"""
 
-    results = []
-    for filename in os.listdir(dirpath):
-        if not filename.endswith(".json"):
-            continue
-        if filter and not filename in filter:
-            continue
+    results = {}
+    for filename in (f for f in os.listdir(dirpath) if f.endswith(".json")):
         with open(os.path.join(dirpath, filename)) as f:
-            results.append(json.load(f))
-    return results
+            dataset = json.load(f)
+            if dataset["id"] in visible_dataset_ids:
+                results[dataset["id"]] = dataset
+
+    if set(visible_dataset_ids) != results.keys():
+        raise Exception(
+            f"visible dataset ids {visible_dataset_ids} contained ids not in {results.keys()}")
+
+    return results.values()
 
 
 def _is_global_dataset(dataset: dict) -> bool:

@@ -1,21 +1,21 @@
 {
-  "id": "gedi_l4b",
-  "name": "GEDI L4B",
+  "id": "nasa_jpl",
+  "name": "NASA JPL Global Above Ground Biomass Mean Prediction 2020",
   "type": "raster",
   "swatch": {
-    "color": "#189C54",
-    "name": "Dark Green"
+    "color": "#6976d7",
+    "name": "Moody Blue"
   },
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/2020.05.08.tif&resampling_method=nearest&bidx=1&rescale=0,500&color_map=gist_earth_r"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/897be444-51c8-4c75-b493-ae5aacd431c5/tiles/{z}/{x}/{y}?bidx=1&max_size=1024&resampling_method=nearest&rescale=0,500&return_mask=true&colormap_name=gist_earth_r"
     ]
   },
   "legend": {
     "type": "gradient",
-    "min": "0",
-    "max": "500",
+    "min": 0,
+    "max": 500,
     "units": "Mg/ha",
     "stops": [
       "#fdfbfb",

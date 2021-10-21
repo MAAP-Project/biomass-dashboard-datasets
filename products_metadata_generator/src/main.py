@@ -49,7 +49,7 @@ def create_json():
 
     products = _gather_data(
         dirpath=INPUT_FILEPATH, 
-        visible_products=config['PRODUCTS']
+        visible_ids=config.get('PRODUCTS', [])
     )
 
     bucket_name = os.environ.get("DATA_BUCKET_NAME", config.get('BUCKET'))
@@ -72,15 +72,15 @@ def create_json():
     return products
 
 
-def _gather_data(dirpath: str, visible_products: List[str] = None) -> Dict[str, List[Dict[str, Any]]]:
+def _gather_data(dirpath: str, visible_ids: List[str]) -> Dict[str, List[Dict[str, Any]]]:
     """Gathers site info and creates a JSON structure from it"""
     parser = html5lib.HTMLParser(strict=True)
 
-    results = []
-    for path in os.walk(dirpath):
-        cp = path[0].rsplit("/", 1)[1]
-        if visible_products and cp not in visible_products:
+    products = {}
+    for f in os.scandir(dirpath):
+        if not f.is_dir():
             continue
+        cp = f.path.rsplit("/", 1)[1]
         with open(os.path.join(dirpath, cp, "product.json"), "r") as f:
             entity = json.loads(f.read())
             try:
@@ -92,8 +92,9 @@ def _gather_data(dirpath: str, visible_products: List[str] = None) -> Dict[str, 
             summary = f.read()
             parser.parseFragment(summary)
             entity["summary"] = summary
-        results.append(entity)    
-    return {"products" : results }
+        products[entity["id"]] = entity
+
+    return {"products": [products[x] for x in visible_ids]}
 
 if __name__ == "__main__":
     print(json.dumps(create_json()))

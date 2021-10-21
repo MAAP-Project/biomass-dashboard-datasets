@@ -1,35 +1,36 @@
 {
-    "id": "cci_biomass",
-    "name": "CCI BIOMASS",
+  "id": "cci_biomass",
+  "name": "CCI BIOMASS",
+  "type": "raster",
+  "swatch": {
+    "color": "#189C54",
+    "name": "Dark Green"
+  },
+  "source": {
     "type": "raster",
-    "swatch": {
-        "color": "#189C54",
-        "name": "Dark Green"
-    },
-    "source": {
-        "type": "raster",
-        "tiles": [
-            "{titiler_server_url}/mosaicjson/tiles/{z}/{x}/{y}?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/2bc5f685-d090-4b59-8878-b9959cfe3eec/cci_biomass_2020.json&rescale=0,500&bidx=1&nodata=0&colormap_name=gist_earth_r"
-        ]
-    },
-    "legend": {
-        "type": "gradient",
-        "min": "0",
-        "max": "500",
-        "stops": [
-            "#fdfbfb",
-            "#e3c3b5",
-            "#c9a87a",
-            "#bab060",
-            "#9db059",
-            "#76a652",
-            "#45994a",
-            "#3a8c66",
-            "#2e7c7f",
-            "#1f567b",
-            "#0f2577",
-            "#000000"
-        ]
-    },
-    "info": "The primary science objective ESA’s Climate Change Initiative (CCI) Biomass project is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2010, 2017 and 2018), with these being capable of supporting quantification of biomass change."
+    "tiles": [
+      "https://titiler.maap-project.org/mosaicjson/mosaics/cac7defe-5e69-48dd-a603-f2281566dabd/tiles/{z}/{x}/{y}?rescale=0,500&bidx=1&nodata=0&colormap_name=gist_earth_r"
+    ]
+  },
+  "legend": {
+    "type": "gradient",
+    "min": "0",
+    "max": "500",
+    "units": "Mg/ha",
+    "stops": [
+      "#fdfbfb",
+      "#e3c3b5",
+      "#c9a87a",
+      "#bab060",
+      "#9db059",
+      "#76a652",
+      "#45994a",
+      "#3a8c66",
+      "#2e7c7f",
+      "#1f567b",
+      "#0f2577",
+      "#000000"
+    ]
+  },
+  "info": "The primary science objective ESA’s Climate Change Initiative (CCI) Biomass project is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2010, 2017 and 2018), with these being capable of supporting quantification of biomass change."
 }

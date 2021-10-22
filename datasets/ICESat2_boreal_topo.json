@@ -11,7 +11,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/mosaicjson/mosaics/0b6e8275-40aa-402b-b8ac-c763ce8d5ac8/tiles/{z}/{x}/{y}.png?bidx=3&resampling_method=nearest&rescale=0%2C1&return_mask=true&colormap_name=bone"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/0b6e8275-40aa-402b-b8ac-c763ce8d5ac8/tiles/{z}/{x}/{y}.png?bidx=3&resampling_method=nearest&rescale=0%2C1&return_mask=true&colormap_name=bone"
     ]
   },
   "paint": {

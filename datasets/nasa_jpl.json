@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": ""
+  "info": "Global aboveground biomass (AGB) density estimates (unit: Mg/ha) derived from a combination of Landsat-8 composites, ALOS PALSAR backscatter (2019-2020) data and SRTM DEM at 100m spatial resolution, trained with samples from the spaceborne lidar data of ICESAT-1, airborne laser scanning (ALS) data, and field inventory data. The boosting tree machine learning model was applied to predict wall-to-wall AGB inferred from satellite data."
 }

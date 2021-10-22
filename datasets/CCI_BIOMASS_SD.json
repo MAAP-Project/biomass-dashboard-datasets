@@ -1,10 +1,10 @@
 {
   "id": "cci_biomass_sd",
-  "name": "CCI BIOMASS SD",
+  "name": "CCI Biomass SD",
   "type": "raster",
   "swatch": {
-    "color": "#189C54",
-    "name": "Dark Green"
+    "color": "#c0392b",
+    "name": "Pomegranate"
   },
   "source": {
     "type": "raster",

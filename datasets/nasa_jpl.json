@@ -3,8 +3,8 @@
   "name": "NASA JPL Global Above Ground Biomass Mean Prediction 2020",
   "type": "raster",
   "swatch": {
-    "color": "#6976d7",
-    "name": "Moody Blue"
+    "color": "#189C54",
+    "name": "Dark Green"
   },
   "source": {
     "type": "raster",

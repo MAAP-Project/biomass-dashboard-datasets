@@ -3,8 +3,8 @@
   "name": "NCEO Africa Biomass",
   "type": "raster",
   "swatch": {
-    "color": "#6976d7",
-    "name": "Moody Blue"
+    "color": "#189C54",
+    "name": "Dark Green"
   },
   "source": {
     "type": "raster",

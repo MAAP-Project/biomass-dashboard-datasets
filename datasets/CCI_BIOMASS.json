@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": "The primary science objective ESA’s Climate Change Initiative (CCI) Biomass project is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2010, 2017 and 2018), with these being capable of supporting quantification of biomass change."
+  "info": "The CCI BIOMASS project delivers spatially explicit estimates of AGB for four epochs and related standard deviations (SDs) as separate map products. The AGB product consists of global datasets with estimates of AGB (unit: tons/ha = Mg/ha). AGB is defined as the mass, expressed as the oven-dry weight of the woody parts (stem, bark, branches and twigs) of all living trees excluding stump and roots. The data products currently provided by the project (year 3, Version 3.0, and additional 2020) consist of four maps of AGB and AGB SD based on Earth Observation data acquired in 2010, 2017, 2018 and 2020, respectively. The spatial resolution of the map products is 100 m."
 }

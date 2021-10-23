@@ -1,6 +1,6 @@
 {
     "id": "atl08_v004",
-    "name": "Canopy Height (m)",
+    "name": "Canopy Height (m) from ATL08 v004",
     "type": "vector",
     "is_periodic": false,
     "time_unit": "day",
@@ -13,7 +13,7 @@
             "{vector_tileserver_url}/atl08-mbtiles/ATL08___004/tiles/{z}/{x}/{y}.pbf"
         ]
     },
-    "info": "Canopy Height from the ATL08 Land and Vegetation product derived data ICESat-2 sensor.",
+    "info": "Canopy Height from the ATL08 Land and Vegetation product derived data ICESat-2 sensor for spatial and temporal extents of ICESat-2 Boreal biomass product.",
     "order": 0,
     "paint": {
         "circle-radius": 3,

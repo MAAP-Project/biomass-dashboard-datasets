@@ -3,8 +3,8 @@
   "name": "NASA JPL Global Above Ground Biomass Mean Prediction 2020 SE",
   "type": "raster",
   "swatch": {
-    "color": "#6976d7",
-    "name": "Moody Blue"
+    "color": "#c0392b",
+    "name": "Pomegranate"
   },
   "source": {
     "type": "raster",
@@ -32,5 +32,5 @@
       "#67000d"
     ]
   },
-  "info": ""
+  "info": "The uncertainty map in the AGB 2020 product was produced using quantile regression to calculate the lower- and upper-bound of the estimation for each pixel, such that the 2.5-percentile and 97.5-percentile of the AGB estimation were predicted. The error map was produced by assuming that the error distribution is Gaussian. Therefore 95% of the predictions are approximately ±2 SD."
 }

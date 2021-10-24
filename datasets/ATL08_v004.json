@@ -8,9 +8,9 @@
         "type": "vector",
         "layer_type": "circle",
         "source_layer": "ATL08___004",
-        "source_url": "{vector_tileserver_url}/atl08-mbtiles/ATL08___004-OriginId",
+        "source_url": "{vector_tileserver_url}/atl08-mbtiles/ATL08___004",
         "tiles": [
-            "{vector_tileserver_url}/atl08-mbtiles/ATL08___004-OriginId/tiles/{z}/{x}/{y}.pbf"
+            "{vector_tileserver_url}/atl08-mbtiles/ATL08___004/tiles/{z}/{x}/{y}.pbf"
         ]
     },
     "info": "Canopy Height from the ATL08 Land and Vegetation product derived data ICESat-2 sensor for spatial and temporal extents of ICESat-2 Boreal biomass product.",

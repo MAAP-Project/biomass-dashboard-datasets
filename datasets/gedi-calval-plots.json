@@ -9,10 +9,10 @@
   "enabled": true,
   "paint": {
     "circle-radius": 4,
-    "circle-color": "#4DB3BF",
+    "circle-color": "#15917E",
     "circle-opacity": 1,
-    "circle-stroke-width": 1,
-    "circle-stroke-color": "#0E7F8C"
+    "circle-stroke-width": 0.5,
+    "circle-stroke-color": "#107062"
   },
   "swatch": {
     "color": "#C0C0C0",

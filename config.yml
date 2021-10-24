@@ -1,4 +1,4 @@
-BUCKET: biomass-earthdata-dashboard-aimee
+BUCKET: biomass-earthdata-dashboard
 DATASET_METADATA_FILENAME: dataset-metadata.json
 DATASETS:
   - nceo_africa
@@ -16,7 +16,6 @@ DATASETS:
   - icesat2_boreal_landsat8
   - icesat2_boreal_topo
   - gedi_calval_plots
-  - atl08_v004
 COUNTRY_PILOTS:
   - japan
   - paraguay

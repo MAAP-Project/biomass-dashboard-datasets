@@ -8,7 +8,7 @@
   },
   "enabled": true,
   "paint": {
-    "circle-radius": 4,
+    "circle-radius": 5,
     "circle-color": "#F261AC",
     "circle-opacity": 1,
     "circle-stroke-width": 0.5,

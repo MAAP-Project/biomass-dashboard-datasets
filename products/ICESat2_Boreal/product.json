@@ -1,62 +1,62 @@
 {
-  "id": "icesat2_boreal",
-  "label": "ICESat-2 Boreal",
-  "center": [
-    -151.3,
-    62.8
-  ],
-  "polygon": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -167.50,
-          53.79
-        ],
-        [
-          -137.46,
-          53.79
-        ],
-        [
-          -137.46,
-          71.47
-        ],
-        [
-          -167.50,
-          71.47
-        ],
-        [
-          -167.50,
-          53.79
+    "id": "icesat2_boreal",
+    "label": "ICESat-2 Boreal",
+    "center": [
+        -110,
+        56
+    ],
+    "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -172.6171875,
+                    50.28933925329178
+                ],
+                [
+                    -48.1640625,
+                    50.28933925329178
+                ],
+                [
+                    -48.1640625,
+                    72.0739114882038
+                ],
+                [
+                    -172.6171875,
+                    72.0739114882038
+                ],
+                [
+                    -172.6171875,
+                    50.28933925329178
+                ]
+            ]
         ]
-      ]
+    },
+    "bounding_box": [
+        -167.5,
+        53.79,
+        -137.46,
+        71.47
+    ],
+    "indicators": [],
+    "datasets": [
+        {
+            "id": "icesat2_boreal_biomass"
+        },
+        {
+            "id": "icesat2_boreal_biomass_se"
+        },
+        {
+            "id": "icesat2_boreal_landsat8"
+        },
+        {
+            "id": "icesat2_boreal_topo"
+        },
+        {
+            "id": "gedi_calval_plots"
+        },
+        {
+            "id": "atl08_v004"
+        }
     ]
-  },
-  "bounding_box": [
-    -167.50,
-    53.79,
-    -137.46,
-    71.47
-  ],
-  "indicators": [],
-  "datasets": [
-    {
-      "id": "icesat2_boreal_biomass"
-    },
-    {
-      "id": "icesat2_boreal_biomass_se"
-    },
-    {
-      "id": "icesat2_boreal_landsat8"
-    },
-    {
-      "id": "icesat2_boreal_topo"
-    },
-    {
-      "id": "gedi_calval_plots"
-    },
-    {
-      "id": "atl08_v004"
-    }
-  ]
 }

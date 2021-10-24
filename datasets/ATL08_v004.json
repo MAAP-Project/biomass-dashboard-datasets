@@ -8,7 +8,7 @@
         "type": "vector",
         "layer_type": "circle",
         "source_layer": "ATL08___004",
-        "source_url": "{vector_tileserver_url}/atl08-mbtiles/ATL08___004",
+        "source_url": "{vector_tileserver_url}/atl08-mbtiles/ATL08___004-OriginId",
         "tiles": [
             "{vector_tileserver_url}/atl08-mbtiles/ATL08___004/tiles/{z}/{x}/{y}.pbf"
         ]

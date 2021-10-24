@@ -8,11 +8,11 @@
   },
   "enabled": true,
   "paint": {
-    "circle-radius": 3,
-    "circle-color": "#06649E",
+    "circle-radius": 4,
+    "circle-color": "#53C5D4",
     "circle-opacity": 1,
     "circle-stroke-width": 0.5,
-    "circle-stroke-color": "#063994"
+    "circle-stroke-color": "#13BDD4"
   },
   "swatch": {
     "color": "#C0C0C0",

@@ -25,7 +25,7 @@ COUNTRY_PILOTS:
 PRODUCTS:
   - global
   - cci_biomass
-  # - gedi_l4b
+  - gedi_l4b
   - icesat2_boreal
   - nasa_jpl
   - nceo_africa

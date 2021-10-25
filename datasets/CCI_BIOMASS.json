@@ -1,6 +1,6 @@
 {
   "id": "cci_biomass",
-  "name": "CCI BIOMASS",
+  "name": "CCI Biomass 2020",
   "type": "raster",
   "swatch": {
     "color": "#189C54",
@@ -9,13 +9,13 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/mosaics/cac7defe-5e69-48dd-a603-f2281566dabd/tiles/{z}/{x}/{y}?rescale=0,300&bidx=1&nodata=0&colormap_name=gist_earth_r"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/cac7defe-5e69-48dd-a603-f2281566dabd/tiles/{z}/{x}/{y}?rescale=0,400&bidx=1&nodata=0&colormap_name=gist_earth_r"
     ]
   },
   "legend": {
     "type": "gradient",
     "min": 0,
-    "max": 300,
+    "max": 400,
     "units": "Mg/ha",
     "stops": [
       "#fdfbfb",
@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": "This layer is the 2020 map from the CCI BIOMASS project. The CCI BIOMASS project delivers spatially explicit estimates of AGB for four epochs and related standard deviations (SDs) as separate map products. The AGB product consists of global datasets with estimates of AGB (unit: tons/ha = Mg/ha). AGB is defined as the mass, expressed as the oven-dry weight of the woody parts (stem, bark, branches and twigs) of all living trees excluding stump and roots. The data products currently provided by the project (year 3, Version 3.0, and additional 2020) consist of four maps of AGB and AGB SD based on Earth Observation data acquired in 2010, 2017, 2018 and 2020, respectively. The spatial resolution of the map products is 100m."
+  "info": "The CCI BIOMASS project delivers spatially explicit estimates of AGB for four epochs and related standard deviations (SDs) as separate map products. The AGB product consists of global datasets with estimates of AGB (unit: tons/ha = Mg/ha). AGB is defined as the mass, expressed as the oven-dry weight of the woody parts (stem, bark, branches and twigs) of all living trees excluding stump and roots. The AGB SD product is a separate data layer providing per-pixel SD of the AGB estimates in Mg/ha. The data products currently provided by the project (year 3, Version 3.0, and additional 2020) consist of four maps of AGB and AGB SD based on Earth Observation data acquired in 2010, 2017, 2018 and 2020, respectively. The spatial resolution of the map products is 100 m."
 }

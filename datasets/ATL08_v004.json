@@ -74,7 +74,8 @@
                 ]
             ]
         },
-        "circle-stroke-color": "white"
+        "circle-stroke-color": "white",
+        "circle-stroke-width": 0
     },
     "legend": {
         "type": "gradient",

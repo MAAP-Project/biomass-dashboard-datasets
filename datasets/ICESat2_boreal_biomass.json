@@ -1,6 +1,6 @@
 {
   "id": "icesat2_boreal_biomass",
-  "name": "ICESat-2 Boreal Biomass",
+  "name": "ICESat-2 Boreal Biomass 2020",
   "type": "raster",
   "swatch": {
     "color": "#189C54",

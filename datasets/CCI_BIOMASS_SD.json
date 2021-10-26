@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/03ccece8-58ba-4e4a-8c72-38acaba58461/cci_biomass_masked_2020.json?rescale=0,500&bidx=2&colormap_name=reds"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/95d84142-091e-473c-bfbe-aaafa6cf82f3/tiles/{z}/{x}/{y}?rescale=0,500&bidx=2&colormap_name=reds"
     ]
   },
   "legend": {

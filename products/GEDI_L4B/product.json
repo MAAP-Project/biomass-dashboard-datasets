@@ -39,5 +39,9 @@
     90
   ],
   "indicators": [],
-  "datasets": []
+  "datasets": [
+    {
+        "id": "gedi_calval_plots"
+    }
+  ]
 }

@@ -1,21 +1,22 @@
 {
   "id": "nceo_africa",
-  "name": "NCEO Africa Biomass",
+  "name": "NCEO Africa Biomass 2017",
   "type": "raster",
   "swatch": {
-    "color": "#6976d7",
-    "name": "Moody Blue"
+    "color": "#189C54",
+    "name": "Dark Green"
   },
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/8e35e31a-4009-4afb-b73e-624bd2208000/AGB_map_2017v0m_COG.tif&rescale=0,500&colormap_name=gist_earth_r&nodata=65535"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/8e35e31a-4009-4afb-b73e-624bd2208000/AGB_map_2017v0m_COG.tif&rescale=0,400&colormap_name=gist_earth_r"
     ]
   },
   "legend": {
     "type": "gradient",
     "min": 0,
-    "max": 500,
+    "max": 400,
+    "units": "Mg/ha",
     "stops": [
       "#fdfbfb",
       "#e3c3b5",

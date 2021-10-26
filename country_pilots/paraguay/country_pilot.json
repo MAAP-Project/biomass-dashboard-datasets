@@ -1,59 +1,59 @@
 {
-    "id": "paraguay",
-    "label": "Paraguay",
-    "center": [
-        -58.4438,
-        -23.4425
-    ],
-    "polygon": {
-        "coordinates": [
-            [
-                [
-                    -62.6850571357,
-                    -27.5484990374
-                ],
-                [
-                    -54.2929595608,
-                    -27.5484990374
-                ],
-                [
-                    -54.2929595608,
-                    -19.3427466773
-                ],
-                [
-                    -62.6850571357,
-                    -19.3427466773
-                ],
-                [
-                    -62.6850571357,
-                    -27.5484990374
-                ]
-            ]
+  "id": "paraguay",
+  "label": "Paraguay",
+  "center": [
+    -58.4438,
+    -23.4425
+  ],
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          -62.6850571357,
+          -27.5484990374
         ],
-        "type": "Polygon"
-    },
-    "bounding_box": [
-        -62.6850571357,
-        -27.5484990374,
-        -54.2929595608,
-        -19.3427466773
+        [
+          -54.2929595608,
+          -27.5484990374
+        ],
+        [
+          -54.2929595608,
+          -19.3427466773
+        ],
+        [
+          -62.6850571357,
+          -19.3427466773
+        ],
+        [
+          -62.6850571357,
+          -27.5484990374
+        ]
+      ]
     ],
-    "indicators": [],
-    "datasets": [
-        {
-            "id": "paraguay-forest-mask"
-        },
-        {
-            "id": "paraguay-tree-cover"
-        },
-        {
-            "id": "paraguay-estimated-biomass"
-        },
-        {
-            "id": "cci_biomass"
-        },
-        {
-            "id": "nasa_jpl"
-        }
-    ]
+    "type": "Polygon"
+  },
+  "bounding_box": [
+    -62.6850571357,
+    -27.5484990374,
+    -54.2929595608,
+    -19.3427466773
+  ],
+  "indicators": [],
+  "datasets": [
+    {
+      "id": "paraguay_forest_mask"
+    },
+    {
+      "id": "paraguay_tree_cover"
+    },
+    {
+      "id": "paraguay_estimated_biomass"
+    },
+    {
+      "id": "cci_biomass"
+    },
+    {
+      "id": "nasa_jpl"
+    }
+  ]
 }

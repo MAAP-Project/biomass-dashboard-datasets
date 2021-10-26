@@ -1,22 +1,22 @@
 {
-    "id": "gedi-calval-plots",
-    "name": "GEDI Cal/Val Field Data",
+  "id": "gedi_calval_plots",
+  "name": "GEDI Cal/Val Field Data",
+  "type": "geojson",
+  "source": {
     "type": "geojson",
-    "source": {
-        "type": "geojson",
-        "data": "https://gist.githubusercontent.com/abarciauskas-bgse/23d637003fce13aa6740ec4586550658/raw/22452601f339ab10c9d64597a05a9ed9f32599b5/gedi-calval-plot.geojson"
-    },
-    "enabled": true,
-    "paint": {
-        "circle-radius": 5,
-        "circle-color": "#DE860B",
-        "circle-opacity": 1,
-        "circle-stroke-width": 1,
-        "circle-stroke-color": "#915B0F"
-    },
-    "swatch": {
-        "color": "#C0C0C0",
-        "name": "Grey"
-    },
-    "info": "Plot locations from the Global Ecosystem Dynamics Investigation (GEDI) Forest Structure and Biomass Database (FSBD). The database is a collection of field and LiDAR datasets developed to serve a central repository for calibration and validation of the GEDI mission data. The GEDI Cal/Val Field Data collection contains the field data contributions to the FSBD. The database has contributions across the globe for a variety of vegetation types from projects dating back to 2003."
+    "data": "https://gist.githubusercontent.com/abarciauskas-bgse/23d637003fce13aa6740ec4586550658/raw/22452601f339ab10c9d64597a05a9ed9f32599b5/gedi-calval-plot.geojson"
+  },
+  "enabled": true,
+  "paint": {
+    "circle-radius": 5,
+    "circle-color": "#F261AC",
+    "circle-opacity": 1,
+    "circle-stroke-width": 0.5,
+    "circle-stroke-color": "#730B41"
+  },
+  "swatch": {
+    "color": "#C0C0C0",
+    "name": "Grey"
+  },
+  "info": "Plot locations from the Global Ecosystem Dynamics Investigation (GEDI) Forest Structure and Biomass Database (FSBD). The database is a collection of field and LiDAR datasets developed to serve a central repository for calibration and validation of the GEDI mission data. The GEDI Cal/Val Field Data collection contains the field data contributions to the FSBD. The database has contributions across the globe for a variety of vegetation types from projects dating back to 2003."
 }

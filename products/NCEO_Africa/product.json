@@ -1,51 +1,51 @@
 {
-    "id": "nceo_africa",
-    "label": "NCEO Africa",
-    "center": [
-        16.7954,
-        1.3385
-    ],
-    "polygon": {
-        "coordinates": [
-            [
-                [
-                    51.86423292864056,
-                    -35.05405901691194
-                ],
-                [
-                    51.86423292864056,
-                    37.73103856358816
-                ],
-                [
-                    -18.27352950955931,
-                    37.73103856358816
-                ],
-                [
-                    -18.27352950955931,
-                    -35.05405901691194
-                ],
-                [
-                    51.86423292864056,
-                    -35.05405901691194
-                ]
-            ]
+  "id": "nceo_africa",
+  "label": "NCEO Africa 2017",
+  "center": [
+    16.7954,
+    1.3385
+  ],
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          51.86423292864056,
+          -35.05405901691194
         ],
-        "type": "Polygon"
+        [
+          51.86423292864056,
+          37.73103856358816
+        ],
+        [
+          -18.27352950955931,
+          37.73103856358816
+        ],
+        [
+          -18.27352950955931,
+          -35.05405901691194
+        ],
+        [
+          51.86423292864056,
+          -35.05405901691194
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bounding_box": [
+    -18.273529509559307,
+    -35.054059016911935,
+    51.86423292864056,
+    37.73103856358816
+  ],
+  "indicators": [],
+  "datasets": [
+    {
+      "id": "nceo_africa"
     },
-    "bounding_box": [
-        -18.273529509559307,
-        -35.054059016911935,
-        51.86423292864056,
-        37.73103856358816
-    ],
-    "indicators": [],
-    "datasets": [
-        {
-            "id": "nceo_africa"
-        },
-        {
-            "id": "nceo_africa_sd"
-        }
-    ],
-    "info": "The NCEO Africa Aboveground Woody Biomass (AGB) map for the year 2017 at 100 m spatial resolution was developed using a combination of LiDAR, Synthetic Aperture Radar (SAR) and optical based data."
+    {
+      "id": "nceo_africa_sd"
+    }
+  ],
+  "info": "The NCEO Africa Aboveground Woody Biomass (AGB) map for the year 2017 at 100 m spatial resolution was developed using a combination of LiDAR, Synthetic Aperture Radar (SAR) and optical based data."
 }

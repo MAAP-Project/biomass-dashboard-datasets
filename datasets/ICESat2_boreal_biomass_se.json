@@ -1,6 +1,6 @@
 {
-  "id": "nceo_africa_sd",
-  "name": "NCEO Africa Standard Deviation",
+  "id": "icesat2_boreal_biomass_se",
+  "name": "ICESat-2 Boreal Biomass SE",
   "type": "raster",
   "swatch": {
     "color": "#c0392b",
@@ -9,13 +9,13 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/2f284627-3afd-45f0-934c-dadc2bcf6fa2/SD_map_2017v0m_COG.tif&rescale=0%2C310&colormap_name=reds"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/cfa37d7e-3d08-4f98-b7e2-164301fa41f7/tiles/{z}/{x}/{y}.png?bidx=2&rescale=0%2C20&colormap_name=reds"
     ]
   },
   "legend": {
     "type": "gradient",
     "min": "0",
-    "max": "310",
+    "max": "20",
     "units": "Mg/ha",
     "stops": [
       "#fff5f0",
@@ -32,5 +32,5 @@
       "#67000d"
     ]
   },
-  "info": "The total uncertainty (SD) at pixel level is composed of different sources of error, which are assumed to be random and independent."
+  "info": "Boreal above ground biomass (AGB) standard error (SE), Mg/ha, of the biomass calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
 }

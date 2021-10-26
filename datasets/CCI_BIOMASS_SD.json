@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-        "https://titiler.maap-project.org/mosaicjson/mosaics/cac7defe-5e69-48dd-a603-f2281566dabd/tiles/{z}/{x}/{y}?rescale=0,500&bidx=2&nodata=0&colormap_name=reds"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/95d84142-091e-473c-bfbe-aaafa6cf82f3/tiles/{z}/{x}/{y}?rescale=0,500&bidx=2&colormap_name=reds"
     ]
   },
   "legend": {

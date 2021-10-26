@@ -51,9 +51,6 @@
         },
         {
             "id": "icesat2_boreal_topo"
-        },
-        {
-            "id": "gedi_calval_plots"
         }
     ]
 }

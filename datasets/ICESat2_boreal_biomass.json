@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://maap-ops-workspace/shared/alexdevseed/is2-biomass/is2_opt8_mosaic.json&bidx=1&rescale=0,400&colormap_name=gist_earth_r"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/e7e26f4d-9a2f-4a3b-9256-0821e372e40e/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0,400&colormap_name=gist_earth_r"
     ]
   },
   "legend": {

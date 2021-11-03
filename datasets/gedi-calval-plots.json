@@ -18,5 +18,5 @@
     "color": "#C0C0C0",
     "name": "Grey"
   },
-  "info": "Plot locations from the Global Ecosystem Dynamics Investigation (GEDI) Forest Structure and Biomass Database (FSBD). The database is a collection of field and LiDAR datasets developed to serve a central repository for calibration and validation of the GEDI mission data. The GEDI Cal/Val Field Data collection contains the field data contributions to the FSBD. The database has contributions across the globe for a variety of vegetation types from projects dating back to 2003."
+  "info": "Plot locations from the Global Ecosystem Dynamics Investigation (GEDI) Forest Structure and Biomass Database (FSBD). The database is a collection of field and LiDAR datasets developed to serve a central repository for calibration and validation of the GEDI mission data. The GEDI Cal/Val Field Data collection contains the field data contributions to the FSBD. The database has contributions across the globe for a variety of vegetation types from projects dating back to 2003. This shows only the publicly available portion of this training dataset. GEDI's biomass product also uses training data from a large set of internationally contributed datasets that are not currently publicly available."
 }

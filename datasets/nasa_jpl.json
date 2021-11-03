@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/mosaics/f0e6f941-4e50-46b3-9463-11b3c2181662/tiles/{z}/{x}/{y}?colormap_name=gist_earth_r&rescale=0,400&bidx=1"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/f0e6f941-4e50-46b3-9463-11b3c2181662/tiles/{z}/{x}/{y}?bidx=1&max_size=1024&resampling_method=nearest&rescale=0,400&return_mask=true&colormap_name=gist_earth_r"
     ]
   },
   "legend": {

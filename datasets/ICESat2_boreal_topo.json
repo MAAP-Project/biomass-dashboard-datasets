@@ -11,14 +11,14 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/mosaics/0b6e8275-40aa-402b-b8ac-c763ce8d5ac8/tiles/{z}/{x}/{y}.png?bidx=3&resampling_method=nearest&rescale=0%2C1&return_mask=true&colormap_name=bone"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/0b6e8275-40aa-402b-b8ac-c763ce8d5ac8/tiles/{z}/{x}/{y}.png?bidx=3&resampling_method=nearest&rescale=0%2C1&return_mask=true&colormap_name=bone&color_formula=gamma r {gamma}"
     ]
   },
   "paint": {
     "raster-opacity": 0.7
   },
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": "0",
     "max": "1",
     "stops": [

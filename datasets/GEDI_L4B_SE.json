@@ -1,0 +1,36 @@
+{
+  "id": "gedi_l4b_se",
+  "name": "GEDI Gridded Biomass 2020 Standard Error",
+  "type": "raster",
+  "swatch": {
+    "color": "#c0392b",
+    "name": "Pomegranate"
+  },
+  "source": {
+    "type": "raster",
+    "tiles": [
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/98b9be5c-7dcf-4558-a90e-f64715b09595/GEDI04_B_MW019MW138_02_002_05_R01000M_SE.tif&rescale=0%2C310&colormap_name=red&color_formula=gamma r {gamma}"
+    ]
+  },
+  "legend": {
+    "type": "gradient-adjustable",
+    "min": "0",
+    "max": "310",
+    "units": "Mg/ha",
+    "stops": [
+      "#fff5f0",
+      "#fee6da",
+      "#fdcfbc",
+      "#fcb498",
+      "#fc9676",
+      "#fb7959",
+      "#f7593f",
+      "#ec382b",
+      "#d21e20",
+      "#b61319",
+      "#940b13",
+      "#67000d"
+    ]
+  },
+  "info": "Mean aboveground biomass density standard error (SE): Standard Error of the mean estimate, combining sampling and modeling uncertainty. Learn more: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html"
+}

@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/2020.05.08.tif&resampling_method=nearest&bidx=1&rescale=0,400&color_map=gist_earth_r&color_formula=gamma r {gamma}"
+      "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/98b9be5c-7dcf-4558-a90e-f64715b09595/GEDI04_B_MW019MW138_02_002_05_R01000M_MU.tif&resampling_method=nearest&bidx=1&rescale=0,400&color_map=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

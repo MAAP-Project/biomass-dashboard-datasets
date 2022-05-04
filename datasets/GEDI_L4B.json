@@ -9,11 +9,11 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https://modis-vi-nasa.s3.amazonaws.com/MOD13A1.006/2020.05.08.tif&resampling_method=nearest&bidx=1&rescale=0,400&color_map=gist_earth_r"
+      "https://l40l1vwmvi.execute-api.us-west-2.amazonaws.com/cog/tiles/{z}/{x}/{y}.png?url=s3://ornl-cumulus-prod-protected/gedi/GEDI_L4B_Gridded_Biomass/data/GEDI04_B_MW019MW138_02_002_05_R01000M_MU.tif&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": 0,
     "max": 400,
     "units": "Mg/ha",
@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": ""
+  "info": "Mean aboveground biomass density (MU): Estimated mean AGBD for the 1 km grid cell, including forest and non-forest. This Global Ecosystem Dynamics Investigation (GEDI) L4B product provides 1 km x 1 km (1 km, hereafter) estimates of mean aboveground biomass density (AGBD) based on observations from mission week 19 starting on 2019-04-18 to mission week 138 ending on 2021-08-04. The GEDI L4A Footprint Biomass product converts each high-quality waveform to an AGBD prediction, and the L4B product uses the sample present within the borders of each 1 km cell to statistically infer mean AGBD. The gridding procedure is described in the GEDI L4B Algorithm Theoretical Basis Document (ATBD). Patterson et al. (2019) describes the hybrid model-based mode of inference used in the L4B product. Corresponding 1 km estimates of the standard error of the mean are also provided in the L4B product. Uncertainty is due to both GEDI's sampling of the 1 km area (as opposed to making wall-to-wall observations) and the fact that L4A biomass values are modeled in a process subject to error instead of measured in a process that may be assumed to be error-free. Learn more: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html"
 }

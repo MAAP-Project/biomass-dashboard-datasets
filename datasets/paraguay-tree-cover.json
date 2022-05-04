@@ -9,11 +9,11 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/ee5eb60c-3c01-4789-ae8e-c03f1d719440/4_tree_cover_cog.masked.tif&rescale=0,75&nodata=0&colormap_name=greens"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/ee5eb60c-3c01-4789-ae8e-c03f1d719440/4_tree_cover_cog.masked.tif&rescale=0,75&nodata=0&colormap_name=greens&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": "0",
     "max": "75",
     "stops": [

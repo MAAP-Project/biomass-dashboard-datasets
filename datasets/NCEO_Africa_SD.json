@@ -9,11 +9,11 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/96a28977-02db-46a0-8429-70f5b4267d38/SD_map_2017v0m_COG.tif&rescale=0%2C310&colormap_name=reds"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/96a28977-02db-46a0-8429-70f5b4267d38/SD_map_2017v0m_COG.tif&rescale=0%2C310&colormap_name=reds&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": "0",
     "max": "310",
     "units": "Mg/ha",

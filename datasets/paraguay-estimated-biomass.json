@@ -9,11 +9,11 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,400&colormap_name=gist_earth_r"
+      "{titiler_server_url}/cog/tiles/{z}/{x}/{y}.png?url=s3://maap-landing-zone-gccops/user-added/uploaded_objects/0bfec58c-45fb-464e-b301-b1afbdf5249e/5_biomass_cog.masked.tif&nodata=0&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {
-    "type": "gradient",
+    "type": "gradient-adjustable",
     "min": 0,
     "max": 400,
     "units": "Mg/ha",

@@ -41,6 +41,12 @@
   "indicators": [],
   "datasets": [
     {
+      "id": "gedi_l4b"
+    },
+    {
+      "id": "gedi_l4b_se"
+    },        
+    {
         "id": "gedi_calval_plots"
     }
   ]

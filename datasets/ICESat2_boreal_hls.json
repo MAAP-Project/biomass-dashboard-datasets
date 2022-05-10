@@ -11,28 +11,28 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/mosaics/4e6776ee-1978-4a71-8408-5327ab9db04e/tiles/{z}/{x}/{y}.png?rescale=0.25,0.45&bidx=13&colormap_name=nipy_spectral&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/4e6776ee-1978-4a71-8408-5327ab9db04e/tiles/{z}/{x}/{y}.png?rescale=0.25,0.45&bidx=13&colormap_name=nipy_spectral&nodata=-9999&color_formula=gamma r {gamma}"
     ]
   },
   "order": 3,
   "info": "Normalized Burn Ratio 2 (NBR2) value. NBR2) modifies the Normalized Burn Ratio (NBR) to highlight water sensitivity in vegetation and may be useful in post-fire recovery studies.",
   "legend": {
     "type": "gradient-adjustable",
-    "min": "0",
-    "max": "0.5",
+    "min": "0.25",
+    "max": "0.45",
     "stops": [
-      "#440154",
-      "#482173",
-      "#433e85",
-      "#38588c",
-      "#2d708e",
-      "#25858e",
-      "#1e9b8a",
-      "#2ab07f",
-      "#52c569",
-      "#86d549",
-      "#c2df23",
-      "#fde725"
+      "#000000",
+      "#850096",
+      "#0000ca",
+      "#0086dd",
+      "#00aaa1",
+      "#009c00",
+      "#00da00",
+      "#88ff00",
+      "#f7db00",
+      "#ff6100",
+      "#da0000",
+      "#cccccc"
     ]
   }
 }

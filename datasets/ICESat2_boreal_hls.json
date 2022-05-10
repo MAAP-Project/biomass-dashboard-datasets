@@ -1,6 +1,6 @@
 {
-  "id": "icesat2_boreal_landsat8",
-  "name": "Max NDVI",
+  "id": "icesat2_boreal_hls",
+  "name": "NBR2",
   "type": "raster",
   "time_unit": "day",
   "is_periodic": false,
@@ -11,11 +11,11 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaicjson/mosaics/8610ecf4-d017-419b-a89a-dfb3b4e508f1/tiles/{z}/{x}/{y}.png?resampling_method=nearest&return_mask=true&bidx=6&rescale=0.01%2C0.5&colormap_name=viridis&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/mosaicjson/mosaics/4e6776ee-1978-4a71-8408-5327ab9db04e/tiles/{z}/{x}/{y}.png?rescale=0.25,0.45&bidx=13&colormap_name=nipy_spectral&color_formula=gamma r {gamma}"
     ]
   },
   "order": 3,
-  "info": "Maximum Normalized Difference Vegetation Index (NDVI) value, and indicator of plant growth, composite from spring 2015-2020. One of the Landsat 8 derived covariates for calculating biomass.",
+  "info": "Normalized Burn Ratio 2 (NBR2) value. NBR2) modifies the Normalized Burn Ratio (NBR) to highlight water sensitivity in vegetation and may be useful in post-fire recovery studies.",
   "legend": {
     "type": "gradient-adjustable",
     "min": "0",

@@ -14,8 +14,6 @@ DATASETS:
   - paraguay_estimated_biomass
   - icesat2_boreal_biomass
   - icesat2_boreal_biomass_se
-  - icesat2_boreal_landsat8
-  - icesat2_boreal_topo
   - gedi_calval_plots
 COUNTRY_PILOTS:
   - japan

@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://l40l1vwmvi.execute-api.us-west-2.amazonaws.com/cog/tiles/{z}/{x}/{y}.png?url=s3://ornl-cumulus-prod-protected/gedi/GEDI_L4B_Gridded_Biomass/data/GEDI04_B_MW019MW138_02_002_05_R01000M_SE.tif&rescale=0,310&colormap_name=reds&color_formula=gamma r {gamma}"
+      "https://nm8joechck.execute-api.us-west-2.amazonaws.com/cog/tiles/{z}/{x}/{y}.png?url=s3://ornl-cumulus-prod-protected/gedi/GEDI_L4B_Gridded_Biomass/data/GEDI04_B_MW019MW138_02_002_05_R01000M_SE.tif&rescale=0,310&colormap_name=reds&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

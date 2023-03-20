@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaics/74c9966e-e865-4c6b-bfe8-d12130f9d6ad/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/mosaics/0c511b4c-9196-441b-bb14-3b1ea7215230/tiles/{z}/{x}/{y}.png?bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {
@@ -32,5 +32,5 @@
       "#000000"
     ]
   },
-  "info": "Boreal, above ground biomass (AGB), Mg/ha, calculated from ICESAT-2, Landsat 8, and Copernicus DEM."
+  "info": "Aboveground biomass density 2020 gridded to 30m derived from ICESat-2, Harmonized Landsat-Sentinel2 and Copernicus DEM."
 }

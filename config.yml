@@ -13,6 +13,7 @@ DATASETS:
   - paraguay_tree_cover
   - paraguay_estimated_biomass
   - icesat2_boreal_biomass
+  - icesat2_boreal_biomass_reduced
   - icesat2_boreal_biomass_se
   - gedi_calval_plots
 COUNTRY_PILOTS:

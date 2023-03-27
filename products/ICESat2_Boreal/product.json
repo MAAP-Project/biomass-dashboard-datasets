@@ -44,6 +44,9 @@
             "id": "icesat2_boreal_biomass"
         },
         {
+          "id": "icesat2_boreal_biomass_reduced"
+        },
+        {
             "id": "icesat2_boreal_biomass_se"
         }
     ]

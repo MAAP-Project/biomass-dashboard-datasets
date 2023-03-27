@@ -1,6 +1,6 @@
 {
   "id": "icesat2_boreal_biomass_reduced",
-  "name": "ICESat-2 Boreal Biomass 2020 - Reduced Resolution",
+  "name": "Reduced Resolution ICESat-2 Boreal Biomass 2020",
   "type": "raster",
   "swatch": {
     "color": "#189C54",

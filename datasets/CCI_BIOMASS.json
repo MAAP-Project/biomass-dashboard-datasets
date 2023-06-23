@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/mosaics/f343756d-bf15-4095-a8f3-f4fcbb26b5f9/tiles/{z}/{x}/{y}?rescale=0,400&bidx=1&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      "https://0x78e0jyvl.execute-api.us-west-2.amazonaws.com/mosaic/3f4af3705f7801257a6bc856d662440a/tiles/{z}/{x}/{y}?assets=estimates&rescale=0,400&bidx=1&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

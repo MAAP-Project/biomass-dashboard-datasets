@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler.maap-project.org/cog/tiles/{z}/{x}/{y}.png?url=s3://ornl-cumulus-prod-protected/gedi/GEDI_L4B_Gridded_Biomass_V2_1/data/GEDI04_B_MW019MW223_02_002_02_R01000M_MU.tif&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://ornl-cumulus-prod-protected/gedi/GEDI_L4B_Gridded_Biomass_V2_1/data/GEDI04_B_MW019MW223_02_002_02_R01000M_MU.tif&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

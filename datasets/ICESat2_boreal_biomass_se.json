@@ -10,7 +10,7 @@
     "type": "raster",
     "minzoom": 8,
     "tiles": [
-      "https://titiler.maap-project.org/collections/icesat2-boreal/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=tif&bidx=2&rescale=0%2C20&colormap_name=reds&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/collections/icesat2-boreal-v2.1-agb/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=tif&bidx=2&rescale=0%2C20&colormap_name=reds&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

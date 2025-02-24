@@ -9,7 +9,7 @@
   "source": {
     "type": "raster",
     "tiles": [
-      "https://titiler-pgstac.maap-project.org/mosaic/4f2b21b1d359e0169117e84c35ed5f7d/tiles/{z}/{x}/{y}?assets=standard_deviation&rescale=0,500&bidx=2&colormap_name=reds&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/mosaic/4f2b21b1d359e0169117e84c35ed5f7d/tiles/WebMercatorQuad/{z}/{x}/{y}?assets=standard_deviation&rescale=0,500&bidx=2&colormap_name=reds&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

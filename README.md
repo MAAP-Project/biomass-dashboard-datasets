@@ -2,6 +2,40 @@
 
 This repository contains the configuration for the [Biomass Dashboard API](https://github.com/MAAP-Project/biomass-dashboard-api) datasets, products, and country pilots. 
 
+## Deployment
+
+We use environment branches for deployments:
+
+- `main`: [biomass.dit.maap-project.org](https://biomass.dit.maap-project.org)
+
+- `staging`: [biomass.staging.maap-project.org](https://biomass.staging.maap-project.org)
+
+- `production`: [biomass.maap-project.org](https://biomass.maap-project.org)
+
+## Development
+
+Maintaining compatible git histories between the three environment branches can be challenging but here are some rules to follow when working on new features or deploying hotfixes:
+
+### Feature Development
+- **Feature branches → main**: Use **Squash and merge** for clean, single-commit features
+
+### Branch Promotions  
+- **main → staging**: Use **Create a merge commit** (required)
+- **staging → production**: Use **Create a merge commit** (required)
+
+### Hotfixes & Backports
+- **staging/production → main**: Use **Create a merge commit** to preserve branch relationships
+- **Never** use squash or rebase for backports - it breaks future merges
+
+### Key Principle
+- **Squash**: Only for feature branches going into main
+- **Merge commit**: Always for branch-to-branch promotions and backports
+- **Never mix strategies** for promotion/backport workflows
+
+### Sync Rule
+- **No need to sync staging → main** if differences are only promotion merge commits
+- **Only sync** if staging/production have direct commits (hotfixes, config changes)
+
 ## Configuration
 
 For each of these entity types, the pattern is to create a config file or files for that entity, and then

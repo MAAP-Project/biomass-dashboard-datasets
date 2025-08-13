@@ -10,7 +10,7 @@
     "type": "raster",
     "maxzoom": 7,
     "tiles": [
-      "https://titiler.maap-project.org/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://nasa-maap-data-store/file-staging/dashboard-datasets/icesat2-boreal/AGB_tindex_average_4500m.tif&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      "https://titiler.maap-project.org/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://nasa-maap-data-store/file-staging/dashboard-datasets/icesat2-boreal-v3.0-agb-downsampled-300m-daac.tif&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
     ]
   },
   "legend": {

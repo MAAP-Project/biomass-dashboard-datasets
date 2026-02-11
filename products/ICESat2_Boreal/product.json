@@ -1,53 +1,28 @@
 {
-    "id": "icesat2_boreal",
-    "label": "ICESat-2 Boreal 2020",
-    "center": [
-        -123,
-        56
-    ],
-    "polygon": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                [
-                    -164.70703125,
-                    48.63290858589535
-                ],
-                [
-                    -83.3203125,
-                    48.63290858589535
-                ],
-                [
-                    -83.3203125,
-                    72.39570570653261
-                ],
-                [
-                    -164.70703125,
-                    72.39570570653261
-                ],
-                [
-                    -164.70703125,
-                    48.63290858589535
-                ]
-            ]
-        ]
-    },
-    "bounding_box": [
-        -164.707,
-        50.289,
-        -83.32,
-        72.074
-    ],
-    "indicators": [],
-    "datasets": [
-        {
-            "id": "icesat2_boreal_biomass_reduced"
-        },
-        {
-            "id": "icesat2_boreal_biomass"
-        },
-        {
-            "id": "icesat2_boreal_biomass_se"
-        }
+  "id": "icesat2_boreal",
+  "label": "ICESat-2 Boreal 2020",
+  "center": [-123, 56],
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-164.70703125, 48.63290858589535],
+        [-83.3203125, 48.63290858589535],
+        [-83.3203125, 72.39570570653261],
+        [-164.70703125, 72.39570570653261],
+        [-164.70703125, 48.63290858589535]
+      ]
     ]
+  },
+  "bounding_box": [-164.707, 50.289, -83.32, 72.074],
+  "indicators": [],
+  "datasets": [
+    {
+      "id": "icesat2_boreal_biomass"
+    },
+    {
+      "id": "icesat2_boreal_biomass_se"
+    }
+  ]
 }
+

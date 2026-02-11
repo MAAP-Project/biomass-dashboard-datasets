@@ -1,18 +1,27 @@
 {
   "id": "icesat2_boreal_biomass",
-  "name": "High Resolution ICESat-2 Boreal Biomass 2020",
+  "name": "ICESat-2 Boreal Biomass 2020",
   "type": "raster",
   "swatch": {
     "color": "#189C54",
     "name": "Dark Green"
   },
-  "source": {
-    "type": "raster",
-    "minzoom": 7,
-    "tiles": [
-      "https://titiler.maap-project.org/searches/76c04112ddbe5d4fa938c24a88855882/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=cog&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
-    ]
-  },
+  "source": [
+    {
+      "type": "raster",
+      "minzoom": 7,
+      "tiles": [
+        "https://titiler.maap-project.org/searches/76c04112ddbe5d4fa938c24a88855882/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=cog&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      ]
+    },
+    {
+      "type": "raster",
+      "maxzoom": 7,
+      "tiles": [
+        "https://titiler.maap-project.org/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=s3://nasa-maap-data-store/file-staging/dashboard-datasets/icesat2-boreal-v3.0-agb-downsampled-300m-daac.tif&bidx=1&rescale=0,400&colormap_name=gist_earth_r&color_formula=gamma r {gamma}"
+      ]
+    }
+  ],
   "legend": {
     "type": "gradient-adjustable",
     "min": 0,
